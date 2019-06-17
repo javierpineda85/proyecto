@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/stylesForms.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css" >
+    <link rel="shortcut icon" href="img/faviconasa.ico">
 
     <title>Perfil de usuario</title>
   </head>
@@ -58,7 +59,7 @@ MODIFIQUE SENAS
   			   <button class="perfil" type="submit" name="button"><i class="fas fa-search-plus"></i></button>
            <!-- ACTUALIZAR DATOS -->
           <button class="perfil" type="submit" name="button"><i class="fas fa-sync-alt"></i></button>
-        
+
           <!--ELIMINAR USUARIO -->
           <button class="perfil" type="submit" name="button"><i class="fas fa-user-minus"></i></button>
           <!-- AGREGAR USUARIO -->

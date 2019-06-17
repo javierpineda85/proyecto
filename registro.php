@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/stylesForms.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css" >
-
+    <link rel="shortcut icon" href="img/faviconasa.ico">
     <title>Registro</title>
   </head>
   <body>
