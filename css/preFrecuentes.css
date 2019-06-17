@@ -1,0 +1,21 @@
+body.preFrecuentes{
+  font-family: sans-serif;
+  display: flex;
+  text-align: center;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+div.container#preFrecuentes {
+width: 80%;
+align-items: flex-start;
+justify-content: space-around;
+
+}
+section.preguntasFrecuentes{
+width: 100%;
+padding: 2%;
+text-align: center;
+justify-content: center;
+border: 3px solid #aaa;
+}
