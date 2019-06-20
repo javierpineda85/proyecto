@@ -8,23 +8,77 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="img/faviconasa.ico">
     <title>Capacitaciones</title>
+
   </head>
+
   <body class="capacitacion">
+
     <div class="container" id="capacitacion">
-      <section class="product">
-        <img class="product"src="img/products/prod-01.jpeg" alt="">
-        <button type="button" name="button">Comprar ahora</button>
-        <button type="button" name="button">Agregar al carrito</button>
-        
-        <div class="tarjetas">
-           <!-- agregar tarjetas -->
-           <i class="fab fa-cc-visa"></i>
-           <i class="fab fa-cc-mastercard"></i>
-           <i class="fas fa-university"></i><!-- transf bancaria -->
+
+      <section class="productos">
+
+        <div class="product">
+
+          <div class="imgBx">
+
+            <img class="product"src="img/products/prod-01.jpeg" alt="">
+          </div>
+
+          <div class="contenido">
+
+            <h2>Título</h2>
+            <p> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+            <a href="#" id="comprar">Comprar ahora</a>
+            <a href="#"id="ampliar">Agrandar imagen</a>
+            <!-- <a href="#"id="contenido">Agregar al carrito</a> NO ENTIENDO LA DIFERENCIA ENTRE COMPRAR Y AGREGAR -->
+          </div>
+
         </div>
+
+        <div class="cards">
+
+          <img class="cards" src="img/pagos.png">
+
+        </div>
+
         <div class="consultas">
           <p><b>Tenés alguna consulta? </b> <i>Comunicate ahora con nuestros operadores y te ayudaran: <b> 261-669 7897 </b></i></p>
         </div>
+
+        <div class="prod-relacionados">
+          <h3>PRODUCTOS RELACIONADOS</h3>
+        </div>
+      </section>
+      <section class="productos">
+
+        <div class="product">
+
+          <div class="imgBx">
+
+            <img class="product"src="img/products/prod-01.jpeg" alt="">
+          </div>
+
+          <div class="contenido">
+
+            <h2>Título</h2>
+            <p> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+            <a href="#" id="comprar">Comprar ahora</a>
+            <a href="#"id="ampliar">Agrandar imagen</a>
+            <!-- <a href="#"id="contenido">Agregar al carrito</a> NO ENTIENDO LA DIFERENCIA ENTRE COMPRAR Y AGREGAR -->
+          </div>
+
+        </div>
+
+        <div class="cards">
+
+          <img class="cards" src="img/pagos.png">
+
+        </div>
+
+        <div class="consultas">
+          <p><b>Tenés alguna consulta? </b> <i>Comunicate ahora con nuestros operadores y te ayudaran: <b> 261-669 7897 </b></i></p>
+        </div>
+
         <div class="prod-relacionados">
           <h3>PRODUCTOS RELACIONADOS</h3>
         </div>

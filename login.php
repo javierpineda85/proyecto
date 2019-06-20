@@ -11,7 +11,7 @@
   <body>
     <section>
       <h1>Bienvenidos a</h1>
-      <img class="logo" src="img/logo ASA.png" alt="">
+      <img class="logo" src="img/asalogo.png" alt="">
 
       <div class="container">
     		<form class="login" action="login.php">
