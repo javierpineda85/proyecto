@@ -5,10 +5,11 @@
 }
 
 body{
-  font-family: sans-serif;
+  font-family: "Montserrat",sans-serif;
   display: flex;
   align-items: center;
   justify-content: center;
+  overflow: hidden;
 }
 
 section{
@@ -16,7 +17,7 @@ section{
   width: 350px;
   margin: 150px;
   padding: 3px;
-  box-shadow:0px 0px 8px 8px #888888;
+  box-shadow:0px 0px 10px 1px #EAB22A;
 
 }
 img.logo{
@@ -38,6 +39,7 @@ h1{
 div.formLog{
   margin-bottom: 15px;
   border: 1px solid #aaa;
+
 }
 input,label.admin{
   font-size: 18px;
@@ -58,6 +60,10 @@ i#avatar{
   display: flex;
   align-items: center;
   justify-content: center;
+  color: #999;
+}
+i#perfil{
+  color:white;
 }
 
 button{
@@ -65,7 +71,7 @@ button{
   width: 100%;
   color: white;
   font-size: 18px;
-  background: #1a2537;
+  background: #333333;
   padding: 15px 20px;
   border-radius: 5px;
   cursor: pointer;
@@ -75,10 +81,13 @@ button{
 button.perfil{
   width:20%;
   padding: 10px 10px;
+  color: white;
+  background-color: #333333;
 
 }
 
-button:hover{
+button:hover,
+button.perfil:hover{
   background: cadetblue;
 }
 div.formLog#recordar{
