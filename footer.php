@@ -6,9 +6,8 @@
     <title>FOOTER</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/stylesfooter.css">
+    <link rel="stylesheet" href="css/stylefooter.css">
     <link href="https://fonts.googleapis.com/css?family=Lato%7CMontserrat" rel="stylesheet">
     <script src="https://unpkg.com/ionicons@4.5.5/dist/ionicons.js"></script>
     <style type="text/css" media="screen">
@@ -19,7 +18,6 @@
 </head>
   <body>
     <header>
-
     </header>
    <footer class="containerfooter">
      <section>
@@ -56,7 +54,6 @@
                </p>
              </section>
            </div>
-
       <div class="redes">
         <h3 class="titulos">REDES</h3>
         <div class="iconosredes">
@@ -71,10 +68,19 @@
       <br>
       <div class="piedepagina">
         <p>Diseñado y programado por / bigtable.com - 2019</p>
-
       </div>
     </nav>
   </section>
   </footer>
+  <div class="cm-up" id="cm-up">
+		  <input type="button" class="cm-text-up" value="Arriba">
+		  <span class="cm-icon">
+			<i class="fas fa-chevron-up"></i>
+		</span>
+    <script src="js/fontawesome-all.min.js"></script>
+    <script src="js/jquery-3.3.1.min.js"></script>
+ <script src="js/up.js"></script>
+	</div>
+
   </body>
 </html>
