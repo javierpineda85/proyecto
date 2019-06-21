@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,300,300i,400,400i,800,800i&display=swap');
+
+/* COLORES
+Naranja: #E27F41 / Amarillo: #EAB22A
+Gris Oscuro: #333333 / Gris Clarito: #F7F7F7  */
+body {
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 1px;
+}
+
+a:hover {
+  color: #E27F41 !important
+}
+
+a.nav-link, .dropdown-menu a {
+  text-transform: uppercase;
+  font-weight: 100;
+  letter-spacing: 2px;
+  font-style: italic;
+}
+
+.border-bottom-orange{
+  border-bottom: 5px solid #E27F41;
+}
+
+.navbar-light .navbar-toggler {
+  color: #333333;
+  border-color: #333333;
+  background: #E27F41;
+}
+
+.dropdown-menu {
+  background: #333;
+  border: none;
+}
+
+.dropdown-menu a {
+  color: white;
+  font-size: small;
+}
+
+.boton-orange {
+  border: 1px solid orange;
+  background: #E27F41;
+}
+
+.form-control {
+  /*height: calc(1.5em + .75rem + 2px);*/
+  font-weight: 100;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+/*_____________________MOBILE LAST*/
+/* Medium Devices, Desktops */
+@media (max-width : 992px) {
+  .navbar {padding: 0px;}
+  .navbar-collapse {
+    background: #333;
+    padding: 5%;
+  }
+
+  .navbar-collapse a{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  }
+  .navbar-light .navbar-nav .nav-link { color: white;}
+
+}
