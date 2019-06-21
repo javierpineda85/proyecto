@@ -8,6 +8,11 @@ body {
   letter-spacing: 1px;
 }
 
+.montserrat {
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 1px;
+}
+
 a:hover {
   color: #E27F41 !important
 }
@@ -19,7 +24,7 @@ a.nav-link, .dropdown-menu a {
   font-style: italic;
 }
 
-.border-bottom-orange{
+.border-bottom-orange {
   border-bottom: 5px solid #E27F41;
 }
 
@@ -44,24 +49,46 @@ a.nav-link, .dropdown-menu a {
   background: #E27F41;
 }
 
+.content-orange {
+  background: #E27F41;
+  padding: 30px 10px;
+  box-sizing: border-box;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 900;
+}
+
+.carousel-caption {
+  top: 40%;
+  background: rgba(0, 0, 0, 0.5);
+  padding-top: 0px;
+  font-weight: 300;
+}
+
 .form-control {
   /*height: calc(1.5em + .75rem + 2px);*/
   font-weight: 100;
   letter-spacing: 2px;
   text-transform: uppercase;
 }
+
 /*_____________________MOBILE LAST*/
 /* Medium Devices, Desktops */
 @media (max-width : 992px) {
-  .navbar {padding: 0px;}
+  .navbar {
+    padding: 0px;
+  }
+
   .navbar-collapse {
     background: #333;
     padding: 5%;
   }
 
-  .navbar-collapse a{
+  .navbar-collapse a {
     border-bottom: 1px solid rgba(255, 255, 255, 0.5);
   }
-  .navbar-light .navbar-nav .nav-link { color: white;}
 
+  .navbar-light .navbar-nav .nav-link {
+    color: white;
+  }
 }
