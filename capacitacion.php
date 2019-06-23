@@ -4,7 +4,14 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- HOJAS DE STILOS-->
+
     <link rel="stylesheet" href="css/stylesCapa.css">
+    <link rel="stylesheet" href="css/master.css">
+
+    <!--FUENTES E ICONOS-->
+
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="img/faviconasa.ico">
@@ -13,6 +20,11 @@
 </head>
 
 <body class="capacitacion">
+
+    <div class="menu">
+        <? include_once ("menu2.php") ?>
+    </div>
+    
 
     <div class="container" id="capacitacion">
 
@@ -79,8 +91,8 @@
 
         <section class="prod-relacionados">
             <div class="titulo">
-                <h3 id="blanco">PRODUCTOS</h3> 
-        
+                <h3 id="blanco">PRODUCTOS</h3>
+
                 <h3 id="naranja">RELACIONADOS</h3>
             </div>
             <br>
@@ -93,9 +105,7 @@
             <div class="prod-rel">
                 <img id="prod-rel" src="img/products/prod-rel-01.jpg" alt="">
             </div>
-            <div class="prod-rel">
-                <img id="prod-rel" src="img/products/prod-rel-02.jpg" alt="">
-            </div>
+
         </section>
     </div>
 

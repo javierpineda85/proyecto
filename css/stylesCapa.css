@@ -1,4 +1,4 @@
-body{
+body {
 
     margin: 0;
     padding: 0;
@@ -10,7 +10,7 @@ body{
 
 }
 
-.container{
+.container {
     position: relative;
     width: 1200px;
     display: flex;
@@ -18,13 +18,20 @@ body{
     justify-content: space-around;
 
 }
-section.productos{
-  width: 500px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+
+
+/****************************
+ * PRODUCTOS CAPACITACIONES *
+****************************/
+
+section.productos {
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
-.container .product{
+
+.container .product {
     position: relative;
     width: 450px;
     height: 650px;
@@ -34,9 +41,9 @@ section.productos{
 
 }
 
-.container .product .imgBx{
-  /*ESTO NOS DA LA POSICION INICIAL DEL CIRCULO */
-   position: absolute;
+.container .product .imgBx {
+    /*ESTO NOS DA LA POSICION INICIAL DEL CIRCULO */
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
@@ -48,19 +55,20 @@ section.productos{
 
 }
 
-.container .product:hover .imgBx{
-  /* ESTO NOS DA LA POSICION Y TAMANO FINAL DEL CIRCULO */
+.container .product:hover .imgBx {
+    /* ESTO NOS DA LA POSICION Y TAMANO FINAL DEL CIRCULO */
 
-   clip-path: circle(180px at center 230px);
+    clip-path: circle(180px at center 230px);
     transition-delay: 0s;
 }
 
-.container .product .imgBx img{
+.container .product .imgBx img {
     width: 100%;
     height: 100%;
     object-fit: contain;
 }
-.container .product:hover .imgBx img{
+
+.container .product:hover .imgBx img {
     position: absolute;
     top: 0;
     left: 0;
@@ -71,7 +79,7 @@ section.productos{
 
 }
 
-.container .product .contenido{
+.container .product .contenido {
     position: absolute;
     left: 0;
     top: 450px;
@@ -83,11 +91,12 @@ section.productos{
     text-align: center;
 }
 
-.container .product .contenido h2{
+.container .product .contenido h2 {
     margin: 0;
     padding: 0;
 }
-.container .product .contenido a#comprar{
+
+.container .product .contenido a#comprar {
     text-decoration: none;
     background-color: #E27F41;
     color: #fff;
@@ -95,7 +104,8 @@ section.productos{
     width: 100%;
     display: inline-block;
 }
-.container .product .contenido a#ampliar{
+
+.container .product .contenido a#ampliar {
     text-decoration: none;
     background-color: #EAB22A;
     color: #fff;
@@ -103,75 +113,110 @@ section.productos{
     width: 100%;
     display: inline-block;
 }
+
 .container .product .contenido h2,
 .container .product .contenido p,
 .container .product .contenido a#comprar,
-.container .product .contenido a#ampliar{
+.container .product .contenido a#ampliar {
     opacity: 0;
     transition: 0.5s;
     transform: translateY(20px);
 
 }
-.container .product:hover .contenido h2{
+
+.container .product:hover .contenido h2 {
     opacity: 1;
     transform: translateY(0px);
     transition-delay: 0.5s;
 }
-.container .product:hover .contenido p{
+
+.container .product:hover .contenido p {
     opacity: 1;
     transform: translateY(0px);
     transition-delay: 0.7s;
 }
+
 .container .product:hover .contenido a#comprar,
-.container .product:hover .contenido a#ampliar{
+.container .product:hover .contenido a#ampliar {
     opacity: 1;
     transform: translateY(0px);
     transition-delay: 0.9s;
 }
 
-.container .productos .cards{
-  width: 70%;
-}
-.container .productos .cards .cards{
-  width: 100%;
-  object-fit: contain;
+
+/****************************
+ * SECCION DE TARJETAS  *
+****************************/
+
+.container .productos .cards {
+    width: 70%;
 }
 
-.container .productos .consultas{
-  width: 80%;
-}
-
-section.prod-relacionados{
-  width: 100%;
-  display:block;
-  justify-content: space-between;
-
-}
-
-.container .prod-relacionados .prod-rel{
-  
-    width: 24%;
-    display: inline-block;
-    
-  
-}
-.container .prod-relacionados .prod-rel img#prod-rel{
-    width: 50%;
-    height: 50%;
+.container .productos .cards .cards {
+    width: 100%;
     object-fit: contain;
 }
-.container .prod-relacionados .titulo{
-    display: inline-flex;
-    justify-content:center;
-    width: 100%;
 
-    background-color: black;
-    text-align: center;
-    
+.container .productos .consultas {
+    width: 80%;
 }
-.container .prod-relacionados h3#blanco{
+
+
+/****************************
+ * PRODUCTOS RELACIONADOS *
+****************************/
+
+
+section.prod-relacionados {
+    width: 100%;
+    display: block;
+    justify-content: space-between;
+
+}
+
+.container .prod-relacionados .titulo {
+    display: inline-flex;
+    justify-content: center;
+    width: 100%; background-color: black;
+    text-align: center;
+
+}
+
+.container .prod-relacionados h3#blanco {
     color: white;
 }
-.container .prod-relacionados h3#naranja{
+
+.container .prod-relacionados h3#naranja {
     color: #E27F41;
+}
+.container .prod-relacionados .prod-rel {
+    width: 32.5%;
+    display: inline-flex;
+    justify-content: space-between;
+    
+
+}
+
+.container .prod-relacionados .prod-rel img#prod-rel {
+    width: 100%;
+    height: 50%;
+    object-fit: contain;
+
+}
+
+
+/****************************
+ * MEDIAS QUERIES MAX 460PX *
+****************************/
+
+@media (max-width 460px){
+    
+  .container .prod-relacionados .prod-rel {
+    width: 80%;
+    display: inline-flex;
+    justify-content: space-between;
+    
+
+}  
+    
 }

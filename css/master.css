@@ -1,0 +1,44 @@
+.menu {
+
+    position: absolute;
+    top: 5px;
+    z-index: 1;
+
+}
+
+/* FORMULARIOS DE USUARIOS */
+section.registro,
+section.login,
+section.perfil {
+    position: relative;
+    top: 40px;
+}
+
+/* CAPACITACIONES */
+
+body.capacitacion div.container#capacitacion {
+    position: relative;
+    top: 150px;
+
+}
+
+/* MUNICIPALIDADES */
+
+div.muni {
+    position: relative;
+    top: 160px;
+}
+
+/* PREGUNTAS FRECUENTES */
+
+body.preFrecuentes div.container#preFrecuentes {
+    position: relative;
+    top: 190px;
+}
+
+/* QUIENES SOMOS */
+
+body.qsomos div.container {
+    position: relative;
+    top: 170px;
+}

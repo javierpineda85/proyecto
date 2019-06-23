@@ -4,15 +4,27 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="css/stylesForms.css">
+    
+    <!-- HOJAS DE STILOS-->
+    
+    <link rel="stylesheet" href="css/stylesForms.css">   <link rel="stylesheet" href="css/master.css">
+    
+    <!--FUENTES E ICONOS-->
+    
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="img/faviconasa.ico">
 
     <title>Perfil de usuario</title>
 </head>
 
 <body>
-    <section>
+    
+    <div class="menu">
+        <? include_once ("menu2.php") ?>
+    </div>
+    
+    <section class="perfil">
         <div class="container">
             <form class="registro" action="registro.php">
                 <h1> Perfil de usuario</h1>
@@ -59,14 +71,14 @@ MODIFIQUE SENAS
 
                 <div class="formLog" id="button">
                     <!-- BUSCAR OTRO -->
-                    <button class="perfil" type="submit" name="button"><i class="fas fa-search-plus"></i></button>
+                    <button class="perfil" type="submit" name="button"><i class="fas fa-search-plus" id="perfil"></i></button>
                     <!-- ACTUALIZAR DATOS -->
-                    <button class="perfil" type="submit" name="button"><i class="fas fa-sync-alt"></i></button>
+                    <button class="perfil" type="submit" name="button"><i class="fas fa-sync-alt" id="perfil"></i></button>
 
                     <!--ELIMINAR USUARIO -->
-                    <button class="perfil" type="submit" name="button"><i class="fas fa-user-minus"></i></button>
+                    <button class="perfil" type="submit" name="button"><i class="fas fa-user-minus" id="perfil"></i></button>
                     <!-- AGREGAR USUARIO -->
-                    <button class="perfil" type="submit" name="button"><i class="fas fa-user-plus"></i></button>
+                    <button class="perfil" type="submit" name="button"><i class="fas fa-user-plus" id="perfil"></i></button>
                 </div>
 
             </form>

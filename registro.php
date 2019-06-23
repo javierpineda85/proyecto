@@ -2,9 +2,17 @@
 <html lang="en" dir="ltr">
 
 <head>
+    
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- HOJAS DE STILOS-->
+    
     <link rel="stylesheet" href="css/stylesForms.css">
+    <link rel="stylesheet" href="css/master.css">
+    
+    <!--FUENTES E ICONOS-->
+    
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="img/faviconasa.ico">
@@ -12,7 +20,11 @@
 </head>
 
 <body>
-    <section>
+    <div class="menu">
+        <? include_once ("menu2.php") ?>
+    </div>
+    
+    <section class="registro">
         <div class="container">
             <form class="registro" action="registro.php">
                 <h1> Registrate</h1>
