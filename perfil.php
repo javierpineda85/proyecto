@@ -4,13 +4,14 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    
+
     <!-- HOJAS DE STILOS-->
-    
-    <link rel="stylesheet" href="css/stylesForms.css">   <link rel="stylesheet" href="css/master.css">
-    
+
+    <link rel="stylesheet" href="css/stylesForms.css">
+    <link rel="stylesheet" href="css/master.css">
+
     <!--FUENTES E ICONOS-->
-    
+
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="img/faviconasa.ico">
@@ -19,11 +20,11 @@
 </head>
 
 <body>
-    
+
     <div class="menu">
-        <? include_once ("menu2.php") ?>
+        <? include_once ("header.php") ?>
     </div>
-    
+
     <section class="perfil">
         <div class="container">
             <form class="registro" action="registro.php">
@@ -59,14 +60,14 @@ MODIFIQUE SENAS
                     <i class="fas fa-mobile-alt"></i>
                     <input type="phone" name="phone" placeholder="Código de área sin el 0, sin el 15" autofocus required>
                 </div>
-                <div class="formLog" id=id="admin">
+                <div class="formLog" id="admin">
                     <i class="fas fa-user-tie"></i>
                     <label class="admin" for="">USER ADMIN O NO</label>
                 </div>
                 <div class="formLog" id="permiso">
                     Desea darle permiso de administrador?
-                    <input type="checkbox" class="chkbx" name="" value="1">SI
-                    <input type="checkbox" class="chkbx" name="" value="0">NO
+                    <input type="checkbox" class="chkbx" name="admin" value="1">SI
+                    <input type="checkbox" class="chkbx" name="admin" value="0">NO
                 </div>
 
                 <div class="formLog" id="button">

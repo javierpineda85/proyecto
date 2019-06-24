@@ -21,34 +21,9 @@
 </head>
 
 <body class="preFrecuentes">
-    <section id="faq">
-        <div class="faq-block">
-            <input id="ac-1" type="checkbox"> 
-            <label for="ac-1">¿Pregunta Nº 1?</label>
-            <article class="ac-small">
-                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
-            </article>
-        </div>
-         <div class="faq-block">
-            <input id="ac-2" type="checkbox"> 
-            <label for="ac-2">¿Pregunta Nº 2?</label>
-            <article class="ac-medium">
-                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
-            </article>
-        </div>
-         <div class="faq-block">
-            <input id="ac-3" type="checkbox"> 
-            <label for="ac-3">¿Pregunta Nº 3?</label>
-            <article class="ac-large">
-                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
-            </article>
-        </div>
-    </section>
 
-
-<!--
     <div class="menu">
-        <? include_once ("menu2.php") ?>
+        <? include_once ("header.php") ?>
     </div>
     <div class="container" id="preFrecuentes">
 
@@ -78,7 +53,7 @@
             <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
         </section>
     </div>
--->
+
 </body>
 
 </html>

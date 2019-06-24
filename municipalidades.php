@@ -20,7 +20,7 @@
   <body>
       
     <div class="menu">
-        <? include_once ("menu2.php") ?>
+        <? include_once ("header.php") ?>
     </div> 
       
     <div class="muni">

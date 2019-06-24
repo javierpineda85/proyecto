@@ -21,7 +21,7 @@
 
 <body>
     <div class="menu">
-        <? include_once ("menu2.php") ?>
+        <? include_once ("header.php") ?>
     </div>
     
     <section class="registro">
@@ -63,7 +63,7 @@
 
                     <p>Al ingresar aceptas nuestras políticas de uso.</p><br>
 
-                    <p>Si ya tienes un usuario <a href="login.php">presiona aquí</a></p>
+                    <p>Si ya tienes un usuario <a class="forms" href="login.php">presiona aquí</a></p>
 
                 </div>
 

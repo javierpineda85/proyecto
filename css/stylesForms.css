@@ -17,7 +17,7 @@ section{
   width: 350px;
   margin: 150px;
   padding: 3px;
-  box-shadow:0px 0px 10px 1px #EAB22A;
+  box-shadow:0px 0px 10px 1px #E27F41;
 
 }
 img.logo{
@@ -32,7 +32,7 @@ padding: 15px;
 h1{
   margin: 6px;
   text-align: center;
-  color: #1a2537;
+  color: #1A2537;
   font-size: 40px;
 
 }
@@ -124,13 +124,13 @@ p{
 margin: 5px;
 font-size: 12px;
 }
-a{
+a.forms{
   font-size: 13px;
   text-decoration: none;
   color:  #1a2537;
   font-weight: 600;
 }
-a:hover{
+a.forms:hover{
   color: cadetblue;
 }
 
