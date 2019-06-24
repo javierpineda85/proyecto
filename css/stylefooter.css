@@ -10,9 +10,40 @@ margin-left: 0%;
 margin-right: 0%;
 }
 
+
+.info-container {
+	width: 100%;
+	background: #333333;
+	font-family: "Monserrat", sans-serif;
+
+}
+
+.info-main {
+	width: 98%;
+	max-width: 1000px;
+	margin: auto;
+	text-align: center;
+  padding: 10px;
+}
+
+.info-main h3 {
+	color: white;
+	font-size: 30px;
+	text-align: center;
+}
+
+.info-main p {
+	padding: 20px 0;
+  color: white;
+}
+
+.btn-warning{
+  margin-bottom: 20px;
+}
+
 img {
 width: 50%;
-padding: 7%;
+padding: 12%;
 }
 
 .logotbt {
@@ -52,9 +83,6 @@ footer {
 background-color: #333333;
 color: white;
 width: 100%;
-justify-content: center;
-display: flex;
-align-content: flex-end;
 }
 
 .contactos {
@@ -63,10 +91,15 @@ text-align: center;
 
 nav.footer h3 {
 text-align: center;
-font-size: 20px;
-padding-bottom: 1%;
+font-size: 30px;
 margin-top: 2%;
 }
+
+.logoasa h2 {
+ color: black;
+ font-size: 25px;
+}
+
 
 .redes {
 font-size: 30px;
@@ -180,6 +213,23 @@ background: #fff;
 }
 
 @media (min-width: 768px) {
+
+.info-container {
+  	background: white;
+}
+.info-main{
+  padding: 10px;
+}
+.info-main p {
+  color: black;
+}
+.info-main h3 {
+  color: black;
+}
+.btn-warning{
+  margin-bottom: 0px;
+}
+
 div.logoasa {
   display: none;
 }
@@ -191,7 +241,7 @@ div.logoasa {
 .menuseccion ul li {
   background-color: #EAB22A;
   width: 100%;
-  /* margin-bottom: 1%; */
+  margin-top: 1%;
   padding: 1%;
   text-align: center;
   text-transform: uppercase;
@@ -206,10 +256,16 @@ ion-icon {
 .contactos p {
   width: 33%;
 }
+
+footer{
+
+}
 nav.footer h3 {
-  text-align: left;
-  padding-bottom: 1%;
+  text-align: center;
+  margin: 0;
 }
 .menuseccion ul li:hover {
   background: #D39C16;
+}
+
 }
