@@ -1,3 +1,88 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: #EFF2F2;
+}
+
+.faq-block{
+	padding-bottom: 25px;
+}
+
+#faq{
+	width: 70%;
+	text-align: center;
+	flex-direction: column;
+	justify-content: center;
+	margin: 0 auto;
+	margin-top: 10vh;
+}
+
+label{
+	padding: 5px 20px;
+	position: relative;
+	z-index: 20;
+	display: block;
+	height: 80%;
+	cursor: pointer;
+	color: #fff;
+	border-radius: 3px;
+	line-height: 40px;
+	font-size: 16px;
+	background-color: #81a2ff;
+}
+label:hover{
+	background-color: #5076d2;
+}
+
+input:checked + label,
+input:checked + label:hover{
+	background-color: #5076d2;
+	color: #fff;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+}
+
+input{
+	display: none;
+}
+
+article{
+	background-color: #81a2ff;
+	border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 3px;
+	margin-bottom: -2px;
+	overflow: hidden;
+	height: 0;
+	position: relative;
+	z-index: 10;
+	transition: height 0.3s ease;
+	display: flex;
+	align-items: center;
+}
+
+p{
+	color: #fff;
+	line-height: 23px;
+	font-size: 16px;
+	padding: 20px;
+}
+
+input:checked - article{
+	transition: height 0.3s ease;
+}
+input: checked - article.ac-small{
+	height: 130px;
+}
+input: checked - article.ac-medium{
+	height: 130px;
+}
+input: checked - article.ac-large{
+	height: 130px;
+}
+/*
+
 body.preFrecuentes{
   font-family: sans-serif;
   display: flex;
@@ -19,3 +104,10 @@ text-align: center;
 justify-content: center;
 border: 3px solid #aaa;
 }
+
+@media screen and (min-width 700px)
+
+@media screen and (min-width: 1000px)
+
+@media screen and (min-width: 1200px)
+*/
