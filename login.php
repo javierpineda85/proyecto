@@ -3,26 +3,26 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-      
+
     <!-- HOJAS DE STILOS-->
-    
+
     <link rel="stylesheet" href="css/stylesForms.css">
     <link rel="stylesheet" href="css/master.css">
-    
-    <!--FUENTES E ICONOS--> 
-      
-      
+
+    <!--FUENTES E ICONOS-->
+
+
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css" >
     <link rel="shortcut icon" href="img/faviconasa.ico">
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
     <title>INGRESAR AL SITIO</title>
   </head>
   <body>
-      
+
     <div class="menu">
         <? include_once ("header.php") ?>
     </div>
-      
+
     <section class="login">
       <h1>Bienvenidos a</h1>
       <img class="logo" src="img/asalogo.png" alt="">
@@ -57,6 +57,6 @@
 
     	</div>
     </section>
-    
   </body>
+
 </html>
