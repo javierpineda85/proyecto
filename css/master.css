@@ -6,39 +6,134 @@
 
 }
 
-/* FORMULARIOS DE USUARIOS */
+
+/*--- FORMULARIOS DE USUARIOS ---*/
+
+/*MENU*/
+body.forms div.menu {
+    position: absolute;
+    top: 0px;
+}
+/*CONTENIDO*/
 section.registro,
 section.login,
 section.perfil {
-    position: relative;
-    top: 40px;
-}
-
-/* CAPACITACIONES */
-
-body.capacitacion div.container#capacitacion {
+    display: flex;
     position: relative;
     top: 150px;
+}
+
+/* FOOTER*/
+
+body.forms#perfil footer {
+    display: block;
+    position: absolute;
+    top: 320px;
+}
+body.forms#login footer{
+    display: block;
+    position: absolute;
+    top: 365px;
+}
+
+body.forms#registro footer{
+    display: block;
+    position: absolute;
+    top: 335px; 
+}
+
+
+
+
+
+/* --- CAPACITACIONES --- */
+
+
+/*MENU*/
+body.capacitacion div.menu {
+    position: absolute;
+    top: 0px;
+}
+
+/* SLIDER*/
+body.capacitacion div.slider {
+    display: block;
+    position: absolute;
+    top: 150px;
+}
+
+/* CONTENIDO*/
+body.capacitacion div.container#capacitacion {
+    display: flex;
+    position: absolute;
+    top: 590px;
 
 }
 
-/* MUNICIPALIDADES */
+/* FOOTER*/
 
+body.capacitacion footer {
+    display: block;
+    position: absolute;
+    top: 1050px;
+}
+
+
+
+
+
+/* --- MUNICIPALIDADES --- */
+/*MENU*/
 div.muni {
     position: relative;
     top: 160px;
 }
+/*CONTENIDO*/
 
-/* PREGUNTAS FRECUENTES */
+/*FOOTER*/  /*falta acomodar el footer ya que el contenido no esta terminado*/
+body.muni footer {
+    display: block;
+    position: absolute;
+    top: 1050px;
+}
 
+
+
+
+
+
+/* --- PREGUNTAS FRECUENTES --- */
+/*MENU*/
 body.preFrecuentes div.container#preFrecuentes {
     position: relative;
     top: 190px;
 }
 
-/* QUIENES SOMOS */
+/*CONTENIDO*/
 
+/*FOOTER*/
+body.preFrecuentes footer {
+    display: block;
+    position: absolute;
+    top: 1050px;
+}
+
+
+
+/* --- QUIENES SOMOS --- */
+
+/*MENU*/
 body.qsomos div.container {
     position: relative;
     top: 170px;
+}
+
+/*CONTENIDO*/
+
+/*FOOTER*/
+
+body.qsomos footer {
+    display: block;
+    position: absolute;
+    top: 1475px;
 }
