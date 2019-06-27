@@ -19,7 +19,7 @@
     <title>Perfil de usuario</title>
 </head>
 
-<body>
+<body class="forms" id="perfil">
 
     <div class="menu">
         <? include_once ("header.php") ?>
@@ -87,6 +87,9 @@ MODIFIQUE SENAS
 
         </div>
     </section>
+    <footer>
+        <? include_once("footer.php") ?>
+    </footer>
 </body>
 
 </html>

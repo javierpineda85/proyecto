@@ -24,7 +24,11 @@
     <div class="menu">
         <? include_once ("header.php") ?>
     </div>
-    
+
+    <div class="slider">
+
+        <? include_once("slider.php") ?>
+    </div>
 
     <div class="container" id="capacitacion">
 
@@ -109,6 +113,11 @@
         </section>
     </div>
 
+    <footer>
+
+        <? include_once("footer.php") ?>
+
+    </footer>
 </body>
 
 </html>
