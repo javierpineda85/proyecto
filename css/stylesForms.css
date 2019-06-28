@@ -1,154 +1,171 @@
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-body{
-  font-family: "Montserrat",sans-serif;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
+body {
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*overflow: hidden; */
 }
 
-section{
+section {
 
-  width: 350px;
-  margin: 150px;
-  padding: 3px;
-  box-shadow:0px 0px 10px 1px #E27F41;
-
-}
-img.logo{
-  width: 120px;
-  display: flex;
-  margin: 0 auto;
-}
-
-form.login, form.registro{
-padding: 15px;
-}
-h1{
-  margin: 6px;
-  text-align: center;
-  color: #1A2537;
-  font-size: 40px;
-
-}
-div.formLog{
-  margin-bottom: 15px;
-  border: 1px solid #aaa;
-
-}
-input,label.admin{
-  font-size: 18px;
-  margin: 3px;
-  width: 80%
-  padding:10px;
-  border:none;
+    width: 350px;
+    /*margin: 150px; */
+    padding: 3px;
+    flex-wrap: wrap;
+    box-shadow: 0px 0px 10px 1px #E27F41;
 
 }
 
-i{
-  min-width: 50px;
-  text-align: center;
-  color:#999;
-
-}
-i#avatar{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #999;
-}
-i#perfil{
-  color:white;
+img.logo {
+    width: 120px;
+    display: flex;
+    margin: 0 auto;
 }
 
-button{
-  border: none;
-  width: 100%;
-  color: white;
-  font-size: 18px;
-  background: #333333;
-  padding: 15px 20px;
-  border-radius: 5px;
-  cursor: pointer;
+form.login,
+form.registro {
+    padding: 15px;
+}
+
+h1 {
+    margin: 6px;
+    text-align: center;
+    color: #1A2537;
+    font-size: 40px;
 
 }
 
-button.perfil{
-  width:20%;
-  padding: 10px 10px;
-  color: white;
-  background-color: #333333;
+div.formLog {
+    margin-bottom: 15px;
+    border: 1px solid #aaa;
+
+}
+
+input,
+label.admin {
+    font-size: 18px;
+    margin: 3px;
+    width: 80% padding:10px;
+    border: none;
+
+}
+
+i {
+    min-width: 50px;
+    text-align: center;
+    color: #999;
+
+}
+
+i#avatar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #999;
+}
+
+i#perfil {
+    color: white;
+}
+
+button {
+    border: none;
+    width: 100%;
+    color: white;
+    font-size: 18px;
+    background: #333333;
+    padding: 15px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+button.perfil {
+    width: 20%;
+    padding: 10px 10px;
+    color: white;
+    background-color: #333333;
 
 }
 
 button:hover,
-button.perfil:hover{
-  background: cadetblue;
+button.perfil:hover {
+    background: cadetblue;
 }
-div.formLog#recordar{
-  margin: 6px;
-  border: none;
-  font-size: 13px;
-  text-align: center;
+
+div.formLog#recordar {
+    margin: 6px;
+    border: none;
+    font-size: 13px;
+    text-align: center;
 }
-div.formLog#avatar{
-  display: flex;
-  justify-content: center;
+
+div.formLog#avatar {
+    display: flex;
+    justify-content: center;
 }
-div.formLog#permiso{
-  font-size: 12px;
+
+div.formLog#permiso {
+    font-size: 12px;
 }
-div.formLog#button{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+
+div.formLog#button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
-input.chkbx{
-  margin: 5px;
+
+input.chkbx {
+    margin: 5px;
 
 }
 
-input.file{
-  font-size: 11px;
-  border: none;
-  color:white;
-  border-radius: 5px;
+input.file {
+    font-size: 11px;
+    border: none;
+    color: white;
+    border-radius: 5px;
 
 }
-p{
-margin: 5px;
-font-size: 12px;
+
+p {
+    margin: 5px;
+    font-size: 12px;
 }
-a.forms{
-  font-size: 13px;
-  text-decoration: none;
-  color:  #1a2537;
-  font-weight: 600;
+
+a.forms {
+    font-size: 13px;
+    text-decoration: none;
+    color: #1a2537;
+    font-weight: 600;
 }
-a.forms:hover{
-  color: cadetblue;
+
+a.forms:hover {
+    color: cadetblue;
 }
 
 @media screen and (max-width 700px) {
-  body{
-    font-family: sans-serif;
-    margin: 0 auto;
-  }
+    body {
+        font-family: sans-serif;
+        margin: 0 auto;
+    }
 
-  section{
+    section {
 
-    width: 100%;
-    padding: 0px;
+        width: 100%;
+        padding: 0px;
 
-  }
-  img.logo{
-    width: 30%;
-    display: flex;
-    margin: 0 auto;
-  }
+    }
+
+    img.logo {
+        width: 30%;
+        display: flex;
+        margin: 0 auto;
+    }
 }

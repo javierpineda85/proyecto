@@ -22,12 +22,12 @@
 </head>
 
 <body class="qsomos">
-    
+
     <div class="menu">
         <? include_once ("header.php") ?>
     </div>
-    
-    
+
+
     <div class="container">
         <section class="titulo">
             <h1 id="blanco">Asociación Solidaria</h1>
@@ -79,7 +79,9 @@
             </article>
         </section>
     </div>
-
+    <footer>
+        <? include_once("footer.php") ?>
+    </footer>
 
 
 </body>
