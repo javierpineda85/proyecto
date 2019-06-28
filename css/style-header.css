@@ -20,7 +20,8 @@ a:hover {
 a.nav-link, .dropdown-menu a {
   text-transform: uppercase;
   font-weight: 100;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
+  font-size: 13px;
   font-style: italic;
 }
 
@@ -59,10 +60,15 @@ a.nav-link, .dropdown-menu a {
 }
 
 .carousel-caption {
-  top: 40%;
+  top: 50%;
+  transform: translateY(-50%);
   background: rgba(0, 0, 0, 0.5);
   padding-top: 0px;
   font-weight: 300;
+}
+.centered-img img{
+ text-align: center;
+ margin: auto;
 }
 
 .form-control {
@@ -70,6 +76,11 @@ a.nav-link, .dropdown-menu a {
   font-weight: 100;
   letter-spacing: 2px;
   text-transform: uppercase;
+}
+.centered-v{
+  /*position: relative;*/
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 /*_____________________MOBILE LAST*/

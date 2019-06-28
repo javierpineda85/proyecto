@@ -14,7 +14,7 @@
     <title>Slider principal</title>
   </head>
   <body>
-    <div class="bd-example">
+    <div class="bd-example position-relative">
   <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
       <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
@@ -22,17 +22,26 @@
       <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
     </ol>
     <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="img/slider/slider-1.jpg" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block montserrat">
+      <div class="carousel-item active m-x-auto centered-img">
+        <img src="img/slider/slider-1.jpg" class="d-block contain" alt="...">
+        <div class="carousel-caption d-md-block montserrat centered">
           <h5 class="content-orange">First slide label</h5>
           <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
         </div>
       </div>
-      <div class="carousel-item">
-        <img src="img/slider/slider-1.jpg" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block montserrat">
-          <h5 class="content-orange">First slide label</h5>
+
+      <div class="carousel-item m-x-auto centered-img">
+        <img src="img/slider/slider-1.jpg" class="d-block contain" alt="...">
+        <div class="carousel-caption d-md-block montserrat centered">
+          <h5 class="content-orange">Second slide label</h5>
+          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+        </div>
+      </div>
+
+      <div class="carousel-item m-x-auto centered-img">
+        <img src="img/slider/slider-1.jpg" class="d-block contain" alt="...">
+        <div class="carousel-caption d-md-block montserrat centered">
+          <h5 class="content-orange">Third slide label</h5>
           <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
         </div>
       </div>
