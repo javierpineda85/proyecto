@@ -1,19 +1,24 @@
-.menu {
-
+/*MENU GRAL*/
+div.menu {
+    width: 100%;
     position: absolute;
     top: 5px;
-    z-index: 1;
+    z-index: 0;
 
+}
+
+/*FOOTER GRAL*/
+body footer {
+    display: block;
+    position: fixed;
+    bottom: 0px;
+    z-index: -10;
 }
 
 
 /*--- FORMULARIOS DE USUARIOS ---*/
 
-/*MENU*/
-body.forms div.menu {
-    position: absolute;
-    top: 0px;
-}
+
 /*CONTENIDO*/
 section.registro,
 section.login,
@@ -21,25 +26,9 @@ section.perfil {
     display: flex;
     position: relative;
     top: 150px;
-}
+    z-index: 10;
 
-/* FOOTER*/
 
-body.forms#perfil footer {
-    display: block;
-    position: absolute;
-    top: 320px;
-}
-body.forms#login footer{
-    display: block;
-    position: absolute;
-    top: 365px;
-}
-
-body.forms#registro footer{
-    display: block;
-    position: absolute;
-    top: 335px; 
 }
 
 
@@ -48,12 +37,6 @@ body.forms#registro footer{
 
 /* --- CAPACITACIONES --- */
 
-
-/*MENU*/
-body.capacitacion div.menu {
-    position: absolute;
-    top: 0px;
-}
 
 /* SLIDER*/
 body.capacitacion div.slider {
@@ -67,73 +50,91 @@ body.capacitacion div.container#capacitacion {
     display: flex;
     position: absolute;
     top: 590px;
+    background: #fff;
+    margin-bottom: 900px;
+    z-index: 10;
 
 }
 
-/* FOOTER*/
 
-body.capacitacion footer {
-    display: block;
-    position: absolute;
-    top: 1050px;
-}
 
 
 
 
 
 /* --- MUNICIPALIDADES --- */
-/*MENU*/
+/*CONTENIDO*/
 div.muni {
     position: relative;
     top: 160px;
+    background: #fff;
+    margin-bottom: 550px;
+    z-index: 10;
 }
-/*CONTENIDO*/
-
-/*FOOTER*/  /*falta acomodar el footer ya que el contenido no esta terminado*/
-body.muni footer {
-    display: block;
-    position: absolute;
-    top: 1050px;
-}
-
 
 
 
 
 
 /* --- PREGUNTAS FRECUENTES --- */
-/*MENU*/
-body.preFrecuentes div.container#preFrecuentes {
-    position: relative;
-    top: 190px;
-}
-
 /*CONTENIDO*/
-
-/*FOOTER*/
-body.preFrecuentes footer {
-    display: block;
-    position: absolute;
-    top: 1050px;
+body.preFrecuentes div.container#preFrecuentes {
+    
+    position: relative;
+    top: 170px;
+    background: #fff;
+    margin-bottom: 600px;
+    z-index: 10;
 }
+
+
+
 
 
 
 /* --- QUIENES SOMOS --- */
 
-/*MENU*/
+/*CONTENIDO*/
 body.qsomos div.container {
+
     position: relative;
     top: 170px;
+    background: #fff;
+    margin-bottom: 600px;
+    z-index: 10;
 }
+
+
+
+
+
+
+
+/*--- CONTACTO ---*/
 
 /*CONTENIDO*/
-
-/*FOOTER*/
-
-body.qsomos footer {
-    display: block;
-    position: absolute;
-    top: 1475px;
+body {
+    display: flex;
+    justify-content: center;
+    align-content: center;
 }
+
+div.textocontacto {
+
+    position: absolute;
+    top: 140px;
+    background: #fff;
+    margin-bottom: 600px;
+    z-index: 10;
+}
+
+div.containergral {
+
+    position: relative;
+    top: 210px;
+    background: #fff;
+    margin-bottom: 600px;
+    z-index: 10;
+
+}
+

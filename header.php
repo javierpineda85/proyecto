@@ -49,7 +49,7 @@
                     <a class="nav-link" href="quienes%20somos.php" tabindex="-1">Nosotros</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contáctenos</a>
+                    <a class="nav-link" href="contacto.php">Contáctenos</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="municipalidades.php">Municipalidades</a>

@@ -4,6 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Pragma" content="no-cache">
 
     <!-- HOJAS DE STILOS-->
 
@@ -22,7 +23,7 @@
 <body class="forms" id="login">
 
     <div class="menu">
-        <? include_once ("header.php") ?>
+        <?php include_once ("header.php") ?>
     </div>
 
     <section class="login">
@@ -61,7 +62,7 @@
     </section>
 
     <footer>
-        <? include_once("footer.php") ?>
+        <?php include_once("footer.php") ?>
     </footer>
 
 </body>

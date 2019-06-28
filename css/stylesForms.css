@@ -14,14 +14,36 @@ body {
 
 section {
 
+/*
+    width:350px;
+    margin: 150px; 
+    padding: 3px;
+    flex-wrap: wrap;
+    box-shadow: 0px 0px 10px 1px #E27F41;
+*/
+    width: 100%;
+    margin-bottom: 450px;
+    background: #fff;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+
+
+}
+section.login,
+section.registro,
+section.perfil{
+    margin-bottom: 500px;
+}
+
+div.container{
     width: 350px;
     /*margin: 150px; */
     padding: 3px;
     flex-wrap: wrap;
     box-shadow: 0px 0px 10px 1px #E27F41;
-
 }
-
 img.logo {
     width: 120px;
     display: flex;
@@ -51,7 +73,8 @@ input,
 label.admin {
     font-size: 18px;
     margin: 3px;
-    width: 80% padding:10px;
+    width: 80%;
+    padding: 15px;
     border: none;
 
 }

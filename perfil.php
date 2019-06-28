@@ -4,8 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- HOJAS DE STILOS-->
+    <meta http-equiv="Pragma" content="no-cache">
 
     <link rel="stylesheet" href="css/stylesForms.css">
     <link rel="stylesheet" href="css/master.css">
@@ -22,7 +21,7 @@
 <body class="forms" id="perfil">
 
     <div class="menu">
-        <? include_once ("header.php") ?>
+        <?php include_once ("header.php") ?>
     </div>
 
     <section class="perfil">
@@ -88,7 +87,7 @@ MODIFIQUE SENAS
         </div>
     </section>
     <footer>
-        <? include_once("footer.php") ?>
+        <?php include_once("footer.php") ?>
     </footer>
 </body>
 
