@@ -23,7 +23,7 @@
     </ol>
     <div class="carousel-inner">
       <div class="carousel-item active m-x-auto centered-img">
-        <img src="img/slider/slider-2.jpg" class="d-block contain" alt="...">
+        <img src="img/slider/slider-.jpg" class="d-block contain" alt="...">
         <div class="carousel-caption d-md-block montserrat centered">
           <h5 class="content-orange">ASOCIACION SOLIDARIA DE ARQUITECTOS</h5>
           <p>Construimos la casa... tú la conviertes en tu hogar.</p>
@@ -31,7 +31,7 @@
       </div>
 
       <div class="carousel-item m-x-auto centered-img">
-        <img src="img/slider/slider-3.jpg" class="d-block contain" alt="...">
+        <img src="img/slider/slider-2.jpg" class="d-block contain" alt="...">
         <div class="carousel-caption d-md-block montserrat centered">
           <h5 class="content-orange">MISION</h5>
           <p>Promover la participación de los miembros, para resolver las distintas problemáticas del rubro y brindar capacitaciones para el desarrollo profesional</p>
@@ -39,7 +39,7 @@
       </div>
 
       <div class="carousel-item m-x-auto centered-img">
-        <img src="img/slider/slider-1.jpg" class="d-block contain" alt="...">
+        <img src="img/slider/slider-3.jpg" class="d-block contain" alt="...">
         <div class="carousel-caption d-md-block montserrat centered">
           <h5 class="content-orange">Asociación Solidaria de Arquitecto</h5>
           <p>Se está gestando como una Asociación Civil sin fines de lucro,
