@@ -27,10 +27,12 @@
     </div>
 
     <section class="login">
-        <h1>Bienvenidos a</h1>
-        <img class="logo" src="img/asalogo.png" alt="">
+
 
         <div class="container">
+            <h1>Bienvenidos a</h1>
+            <img class="logo" src="img/asalogo.png" alt="">
+
             <form class="login" action="login.php">
                 <h1>Ingresar</h1>
                 <div class="formLog" id="email">

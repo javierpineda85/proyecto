@@ -14,35 +14,25 @@ body {
 
 section {
 
-/*
-    width:350px;
-    margin: 150px; 
-    padding: 3px;
-    flex-wrap: wrap;
-    box-shadow: 0px 0px 10px 1px #E27F41;
-*/
     width: 100%;
+    padding-bottom: 10px;
     margin-bottom: 450px;
     background: #fff;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    border: 1px solid black;
-
-
-}
-section.login,
-section.registro,
-section.perfil{
     margin-bottom: 500px;
+
+
 }
+
 
 div.container{
     width: 350px;
-    /*margin: 150px; */
     padding: 3px;
     flex-wrap: wrap;
-    box-shadow: 0px 0px 10px 1px #E27F41;
+    border: 1px solid #E27F41;
+
 }
 img.logo {
     width: 120px;
@@ -50,8 +40,7 @@ img.logo {
     margin: 0 auto;
 }
 
-form.login,
-form.registro {
+form {
     padding: 15px;
 }
 
@@ -64,6 +53,7 @@ h1 {
 }
 
 div.formLog {
+    justify-content: center;
     margin-bottom: 15px;
     border: 1px solid #aaa;
 
@@ -71,18 +61,20 @@ div.formLog {
 
 input,
 label.admin {
-    font-size: 18px;
-    margin: 3px;
-    width: 80%;
-    padding: 15px;
-    border: none;
+    font-size: 16px;
+    margin: 1px;
+    width: 92%;
+    padding: 5px;
+
 
 }
 
-i {
-    min-width: 50px;
+div.formLog i {
+    min-width: 80px;
     text-align: center;
     color: #999;
+    padding: 0px 5px 0px 5px;
+/*    border: 1px dashed red;*/
 
 }
 
@@ -135,7 +127,7 @@ div.formLog#avatar {
 }
 
 div.formLog#permiso {
-    font-size: 12px;
+    font-size: 11px;
 }
 
 div.formLog#button {
@@ -145,7 +137,7 @@ div.formLog#button {
 }
 
 input.chkbx {
-    margin: 5px;
+/*    margin: 5px;*/
 
 }
 

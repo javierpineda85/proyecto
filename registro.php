@@ -26,7 +26,7 @@
     </div>
 
     <section class="registro">
-        <div class="container">
+        <div class="container" id="registro">
             <form class="registro" action="registro.php">
                 <h1> Registrate</h1>
                 <div class="formLog" id="name">

@@ -25,8 +25,8 @@
     </div>
 
     <section class="perfil">
-        <div class="container">
-            <form class="registro" action="registro.php">
+        <div class="container" id="perfil">
+            <form class="perfil" action="perfil.php">
                 <h1> Perfil de usuario</h1>
                 <div class="formLog" id="avatar">
                     <i class="fas fa-image" id="avatar"></i>
