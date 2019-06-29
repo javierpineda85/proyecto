@@ -27,7 +27,7 @@
 				</div>
 				<div class="footer-columna">
 					<h3>Nosotros</h3>
-					<p class="nosotros">La Asociación Solidaria de Arquitectos se está gestando como una Asociación Civil sin fines de lucro, en donde los profesionales puedan compartir de forma genuina, la búsqueda de objetivos comunes en un espacio colaborativo y cooperativo.</p>
+					<p class="nosotros font-weight-light">La Asociación Solidaria de Arquitectos se está gestando como una Asociación Civil sin fines de lucro, en donde los profesionales puedan compartir de forma genuina, la búsqueda de objetivos comunes en un espacio colaborativo y cooperativo.</p>
 				</div>
 			</div>
 		</div>
