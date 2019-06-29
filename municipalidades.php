@@ -8,8 +8,7 @@
 
     <!-- HOJAS DE STILOS-->
 
-    <link rel="stylesheet" href="css/stylesMuni.css">
-    <link rel="stylesheet" href="css/master.css">
+        <link rel="stylesheet" href="css/stylesMuni.css">
 
     <!--FUENTES E ICONOS-->
 
@@ -26,9 +25,6 @@
     </div>
 
     <div class="muni">
-        <div class="contenedordiv">
-            <img class="imgmuni" src="img/logo ASA.png" alt="logo">
-        </div>
         <h1>Municipalidades</h1>
 
 
