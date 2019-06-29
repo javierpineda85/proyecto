@@ -1,5 +1,6 @@
 /*MENU GRAL*/
-div.menu {
+div.menu,
+header{
     width: 100%;
     position: absolute;
     top: 5px;
@@ -38,27 +39,15 @@ section.perfil {
 /* --- CAPACITACIONES --- */
 
 
-/* SLIDER*/
-body.capacitacion div.slider {
-    display: block;
-    position: absolute;
-    top: 150px;
-}
-
 /* CONTENIDO*/
 body.capacitacion div.container#capacitacion {
-    display: flex;
-    position: absolute;
-    top: 590px;
+
+    position: relative;
+    top: 170px;
     background: #fff;
-    margin-bottom: 900px;
+    margin-bottom: 600px;
     z-index: 10;
-
 }
-
-
-
-
 
 
 
@@ -66,9 +55,9 @@ body.capacitacion div.container#capacitacion {
 /*CONTENIDO*/
 div.muni {
     position: relative;
-    top: 160px;
+    top: 170px;
     background: #fff;
-    margin-bottom: 550px;
+    margin-bottom: 600px;
     z-index: 10;
 }
 
@@ -79,7 +68,7 @@ div.muni {
 /* --- PREGUNTAS FRECUENTES --- */
 /*CONTENIDO*/
 body.preFrecuentes div.container#preFrecuentes {
-    
+
     position: relative;
     top: 170px;
     background: #fff;
@@ -137,4 +126,12 @@ div.containergral {
     z-index: 10;
 
 }
-
+/*--- CARRITO ---*/
+/*CONTENIDO*/
+section.ppal{
+  position: relative;
+  top: 170px;
+  background: #fff;
+  margin-bottom: 600px;
+  z-index: 10;
+}

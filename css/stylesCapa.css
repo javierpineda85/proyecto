@@ -11,13 +11,15 @@ body.capacitacion {
 
 }
 
-.container {
+body.capacitacion div.container {
     position: relative;
-    width: 1200px;
+    
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
- 
+
+
 }
 
 
