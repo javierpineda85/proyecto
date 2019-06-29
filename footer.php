@@ -9,7 +9,7 @@
 
     <!--Personal CSS -->
     <link rel="stylesheet" href="css/stylefooter.css">
-    <link rel="stylesheet" href="css/style-header.css">
+    <!-- <link rel="stylesheet" href="css/master.css"> -->
 
     <script src="https://unpkg.com/ionicons@4.5.5/dist/ionicons.js"></script>
     </style>
