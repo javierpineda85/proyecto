@@ -28,9 +28,20 @@
   </div>
 
 <!--_____________________SECCIONES ESTATICAS-->
-<div class="d-flex container-fluid w-100 text-white bg-dark p-3 m-auto align-items-center">
-  <h2 class="">2x1 en cursos!!!</h2>
-</div>
+<section class="d-flex align-content-center flex-wrap container-fluid w-100 text-white bg-black p-3 m-auto align-items-center">
+  <h2 class="m-auto"><span class="color-orange">2x1</span> en cursos!!!</h2>
+</section>
+
+<section class="d-flex container-fluid w-100 text-white bg-dark p-3 m-auto align-items-center">
+  <div class="m-auto">
+    <img src="img/tarjetas.png" alt="tarjetas">
+  </div>
+</section>
+
+<section class="col-12 col-md-12 text-white bg-dark">
+
+</section>
+
 <footer>
     <?php include_once("footer.php") ?>
 </footer>

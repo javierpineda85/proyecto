@@ -6,7 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="css/font-awesome.min.css">
+
+    <!--Personal CSS -->
     <link rel="stylesheet" href="css/stylefooter.css">
+    <link rel="stylesheet" href="css/style-header.css">
+
     <script src="https://unpkg.com/ionicons@4.5.5/dist/ionicons.js"></script>
     </style>
 </head>
@@ -15,19 +19,19 @@
 		<div class="footer-container">
 			<div class="footer-main">
 				<div class="footer-columna">
-					<h3>Suscríbete</h3>
+					<h3 class="font-weight-bolder">Suscríbete</h3>
 					<input type="email" placeholder="Escriba su Correo">
-					<input type="submit" value=" Suscribirse">
+					<input type="submit" value=" Suscribirse" class="boton-orange">
 			  </div>
 			<div class="footer-columna">
-					<h3>Contactos</h3>
-					<span><i class="fas fa-map-marker-alt"></i><p>244 Lorem ipsum dolor sit amet</p></span>
-					<span><i class="fas fa-phone"></i><p>(+34) 947 002 963</p></span>
-					<span><i class="fas fa-envelope"></i><p>asa.mendozaunidos@gmail.com</p></span>
+					<h3 class="font-weight-bolder">Contactos</h3>
+					<span class="d-flex"><i class="fas fa-map-marker-alt mr-2"></i><p>244 Lorem ipsum dolor sit amet</p></span>
+					<span class="d-flex"><i class="fas fa-phone mr-2"></i><p>(+34) 947 002 963</p></span>
+					<span class="d-flex"><i class="fas fa-envelope mr-2"></i><p>asa.mendozaunidos@gmail.com</p></span>
 				</div>
 				<div class="footer-columna">
-					<h3>Nosotros</h3>
-					<p class="nosotros font-weight-light">La Asociación Solidaria de Arquitectos se está gestando como una Asociación Civil sin fines de lucro, en donde los profesionales puedan compartir de forma genuina, la búsqueda de objetivos comunes en un espacio colaborativo y cooperativo.</p>
+					<h3 class="font-weight-bolder">Nosotros</h3>
+					<p class="nosotros font-weight-light text-left">La Asociación Solidaria de Arquitectos se está gestando como una Asociación Civil sin fines de lucro, en donde los profesionales puedan compartir de forma genuina, la búsqueda de objetivos comunes en un espacio colaborativo y cooperativo.</p>
 				</div>
 			</div>
 		</div>
