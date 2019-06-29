@@ -14,7 +14,7 @@
     <title>Slider principal</title>
   </head>
   <body>
-    <div class="bd-example position-relative">
+    <div class="bd-example position-relative bg-dark">
   <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
       <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>

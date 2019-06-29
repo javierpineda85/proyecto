@@ -82,6 +82,8 @@ a.nav-link, .dropdown-menu a {
   top: 50%;
   transform: translateY(-50%);
 }
+/*_____________________MICROCLASES*/
+.bg-black{ background: #000 !important;}
 
 /*_____________________MOBILE LAST*/
 /* Medium Devices, Desktops */
