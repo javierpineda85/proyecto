@@ -115,6 +115,7 @@ div.textocontacto {
     background: #fff;
     margin-bottom: 600px;
     z-index: 10;
+    width: 100%;
 }
 
 div.containergral {
@@ -124,6 +125,7 @@ div.containergral {
     background: #fff;
     margin-bottom: 600px;
     z-index: 10;
+    width: 100%;
 
 }
 /*--- CARRITO ---*/
