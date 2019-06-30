@@ -32,15 +32,15 @@
                     <a class="nav-link" href="inicio-axel.php">Inicio <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Proyectos</a>
+                    <a class="nav-link" href="working.php">Proyectos</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Servicios
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Servicios 1</a>
-                        <a class="dropdown-item" href="#">Servicios 2</a>
+                        <a class="dropdown-item" href="working.php">Servicios 1</a>
+                        <a class="dropdown-item" href="working.php">Servicios 2</a>
                         <!--<div class="dropdown-divider"></div>
           <a class="dropdown-item" href="#">Something else here</a>-->
                     </div>
@@ -53,6 +53,9 @@
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="municipalidades.php">Municipalidades</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="preguntasFrecuentes.php">F.A.Qs</a>
                 </li>
                 <!--/* Capacitaciones */ -->
                 <li class="nav-item">
