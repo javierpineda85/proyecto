@@ -51,15 +51,7 @@ body.capacitacion div.container#capacitacion {
 
 
 
-/* --- MUNICIPALIDADES --- */
-/*CONTENIDO*/
-div.muni {
-    position: relative;
-    top: 170px;
-    background: #fff;
-    margin-bottom: 600px;
-    z-index: 10;
-}
+
 
 
 
@@ -99,35 +91,7 @@ body.qsomos div.container {
 
 
 
-/*--- CONTACTO ---*/
 
-/*CONTENIDO*/
-body {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-}
-
-div.textocontacto {
-
-    position: absolute;
-    top: 140px;
-    background: #fff;
-    margin-bottom: 600px;
-    z-index: 10;
-    width: 100%;
-}
-
-div.containergral {
-
-    position: relative;
-    top: 210px;
-    background: #fff;
-    margin-bottom: 600px;
-    z-index: 10;
-    width: 100%;
-
-}
 /*--- CARRITO ---*/
 /*CONTENIDO*/
 section.ppal{
