@@ -9,7 +9,7 @@
     <!-- HOJAS DE STILOS-->
 
     <link rel="stylesheet" href="css/stylesCapa.css">
-    <link rel="stylesheet" href="css/master.css">
+<!--    <link rel="stylesheet" href="css/master.css">-->
 
     <!--FUENTES E ICONOS-->
 

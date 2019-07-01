@@ -2,23 +2,28 @@ body.capacitacion {
 
     margin: 0;
     padding: 0;
-    min-height: 100vh;
     width: 100%;
-    display: flex;
     justify-content: center;
     align-items: center;
     font-family: "Montserrat", sans-serif;
 
 }
 
-body.capacitacion div.container {
-    position: relative;
-    
+div.menu {
+    width: 100%;
+    top: 5px;
+
+
+}
+
+div.container {
+
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-
+    top: 170px;
+    background: #fff;
 
 }
 
@@ -209,12 +214,13 @@ section.prod-relacionados {
 
 }
 
+footer {
+    display: flex;
+    position: relative;
 
-/****************************
- * MEDIAS QUERIES MAX 460PX *
-****************************/
+}
 
-@media (max-width 460px) {
+*************************** * MEDIAS QUERIES MAX 460PX * *************************** @media (max-width 460px) {
 
     .container .prod-relacionados .prod-rel {
         width: 100%;
