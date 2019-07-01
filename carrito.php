@@ -10,7 +10,7 @@
     <!-- HOJAS DE STILOS-->
 
     <link rel="stylesheet" href="css/styleCarrito.css">
-    <link rel="stylesheet" href="css/master.css">
+    <!--    <link rel="stylesheet" href="css/master.css">-->
 
     <!--FUENTES E ICONOS-->
 
@@ -34,7 +34,7 @@
                     <img class="prod__img" src="img/products/prod-01.jpeg" alt="">
                     <div class="prod__1--descripcion">
 
-                        <h3 class="prod__title">producto 1</h3>
+                        <h3 class="prod__title">Producto 1</h3>
                         <br>
                         <p class="prod__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                         <br>
@@ -53,7 +53,7 @@
                     <img class="prod__img" src="img/products/prod-01.jpeg" alt="">
                     <div class="prod__1--descripcion">
 
-                        <h3 class="prod__title">Producto </h3>
+                        <h3 class="prod__title">Producto 2</h3>
                         <br>
                         <p class="prod__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                         <br>
@@ -72,13 +72,13 @@
             <div class="sumary">
 
                 <input class="sumary__code" type="text" name="prom__code" value="" placeholder="Tienes un código de descuento?">
-                <h5 class="sumary__ title--prod">producto 1</h5>
+                <h5 class="sumary__title--prod">producto 1</h5>
                 <h5 class="sumary__price">$100</h5> <br>
-                <h5 class="sumary__ title--prod">producto 2</h5>
+                <h5 class="sumary__title--prod">producto 2</h5>
                 <h5 class="sumary__price">$100</h5> <br>
                 <h4 class="sumary__price--total">TOTAL</h4>
                 <h4 class="sumary__price--total--price">$230</h4>
-                <button class="sumary__buttom--buy" type="button" name="button"> <a class="sumary__buttom" href="inicio.php"> FINALIZAR COMPRA</a></button>
+                <button class="sumary__buttom--buy" type="button" name="button"> <a class="sumary__buttom" href="inicio-axel.php"> FINALIZAR COMPRA</a></button>
             </div>
         </aside>
     </section>
