@@ -25,7 +25,7 @@
 <body class="qsomos">
 
     <div class="menu">
-        <? include_once ("header.php") ?>
+        <?php include_once ("header.php") ?>
     </div>
 
 
@@ -81,7 +81,7 @@
         </section>
     </div>
     <footer>
-        <? include_once("footer.php") ?>
+        <?php include_once("footer.php") ?>
     </footer>
 
 
