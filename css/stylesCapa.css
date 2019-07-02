@@ -58,8 +58,8 @@ section.productos {
     height: 100%;
     background: white;
     clip-path: circle(800px at center 230px);
-    transition: 0.5s;
-    transition-delay: 0.5s;
+    transition: 0.3s;
+    transition-delay: 0.3s;
 
 }
 
@@ -127,7 +127,7 @@ section.productos {
 .container .product .contenido a#comprar,
 .container .product .contenido a#ampliar {
     opacity: 0;
-    transition: 0.5s;
+    transition: 0.3s;
     transform: translateY(20px);
 
 }
@@ -135,20 +135,20 @@ section.productos {
 .container .product:hover .contenido h2 {
     opacity: 1;
     transform: translateY(0px);
-    transition-delay: 0.5s;
+    transition-delay: 0.3s;
 }
 
 .container .product:hover .contenido p {
     opacity: 1;
     transform: translateY(0px);
-    transition-delay: 0.7s;
+    transition-delay: 0.4s;
 }
 
 .container .product:hover .contenido a#comprar,
 .container .product:hover .contenido a#ampliar {
     opacity: 1;
     transform: translateY(0px);
-    transition-delay: 0.9s;
+    transition-delay: 0.5s;
 }
 
 
