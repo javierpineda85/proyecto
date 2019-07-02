@@ -11,9 +11,23 @@ div.container{
     font-family: "Montserrat", sans-serif;
 }
 
- .container h1{
-    background-image: url("../img/asa-02.jpg");
+div.titulo {
+    display: inline-flex;
+    justify-content: center;
+    width: 100%;
+    background-color: black;
+    text-align: center;
+
 }
+
+div.titulo h3#blanco {
+    color: white;
+}
+
+div.titulo h3#naranja {
+    color: #E27F41;
+}
+
 
 .preguntasFrecuentes h2 {
   background-color: #E27F41;
