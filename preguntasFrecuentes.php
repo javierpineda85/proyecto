@@ -23,7 +23,7 @@
 
 <body class="preFrecuentes">
 
-        
+        <!----------------------------- Muestra el Header ----------------------------->
         <div class="menu">
         <?php include_once ("header.php") ?>
         </div>
