@@ -25,9 +25,7 @@
     </div>
 
     <div class="muni">
-        <h1>Municipalidades</h1>
-
-
+        <h1>MUNICIPALIDADES</h1>
         <div class="secciones">
 
             <section class="seccionesmuni">

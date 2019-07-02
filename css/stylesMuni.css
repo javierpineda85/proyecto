@@ -10,18 +10,20 @@
   justify-content: center;
 }
 
-.imgmuni {   /* Medidas en VH y EM para hacerlo responsive */
-  width: 40vh;
-  height: 40vh;
-  margin-bottom: 2em;
-  margin-top: 1em;
+.muni{
+  font-family: "Montserrat", sans-serif;
 }
-  
-h1 {  /* Correspondiente al titulo Municipalidades */
+
+.muni h1 {  /* Correspondiente al titulo Municipalidades */
   display: flex;
   justify-content: center;
-  margin-bottom: 1em;
+  margin-bottom: 14px;
   letter-spacing: 1px;
+  font-size: 30px;
+  margin-top: 14px;
+  background-color: black;
+  color: white;
+  padding: 10px
 }
 
 .secciones { /*  Contenedor de todas las municipalidades  */
@@ -30,9 +32,11 @@ h1 {  /* Correspondiente al titulo Municipalidades */
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
+  /* background-image: url(../img/asa-01.jpg);
+  background-repeat: no-repeat; */
 }
 
-.boton {  /* Prueba para hacer dinamicos los enlaces a cada municipalidad */ 
+.boton {  /* Prueba para hacer dinamicos los enlaces a cada municipalidad */
   border:none;
   background-color: white;
 }
@@ -42,7 +46,7 @@ section :hover{  /*Color naranja del cursor cuando se posa en el nombre de cada 
   color: #F59128;
 }
 
-h2 {  /*Cambia el icono del mouse por mano cuando esta arriba del nombre de cada muni */
+.seccionesmuni h2{  /*Cambia el icono del mouse por mano cuando esta arriba del nombre de cada muni */
   cursor: pointer;
 }
 
@@ -58,4 +62,12 @@ h2 {  /*Cambia el icono del mouse por mano cuando esta arriba del nombre de cada
   align-items: center;
   justify-content: center;
   margin-bottom: 2em;
+}
+
+@media only screen and (min-width: 880px) {
+  div.muni{
+      /* margin-top: 40px;
+      margin-bottom: 40px; */
+}
+
 }
