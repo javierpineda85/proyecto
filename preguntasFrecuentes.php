@@ -8,9 +8,9 @@
 
     <!-- HOJAS DE STILOS-->
 
-    <link rel="stylesheet" href="css/stylesForms.css">
+   
     <link rel="stylesheet" href="css/preFrecuentes.css">
-    <link rel="stylesheet" href="css/master.css">
+   
 
     <!--FUENTES E ICONOS-->
 
