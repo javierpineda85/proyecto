@@ -7,7 +7,7 @@
     <meta http-equiv="Pragma" content="no-cache">
 
     <link rel="stylesheet" href="css/stylesForms.css">
-    <link rel="stylesheet" href="css/master.css">
+
 
     <!--FUENTES E ICONOS-->
 
@@ -27,7 +27,7 @@
     <section class="perfil">
         <div class="container" id="perfil">
             <form class="perfil" action="perfil.php">
-                <h1> Perfil de usuario</h1>
+                <h1 class="forms"> Perfil de usuario</h1>
                 <div class="formLog" id="avatar">
                     <i class="fas fa-image" id="avatar"></i>
 

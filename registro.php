@@ -10,7 +10,7 @@
     <!-- HOJAS DE STILOS-->
 
     <link rel="stylesheet" href="css/stylesForms.css">
-    <link rel="stylesheet" href="css/master.css">
+
 
     <!--FUENTES E ICONOS-->
 
@@ -28,7 +28,7 @@
     <section class="registro">
         <div class="container" id="registro">
             <form class="registro" action="registro.php">
-                <h1> Registrate</h1>
+                <h1 class="forms"> Registrate</h1>
                 <div class="formLog" id="name">
                     <i class="fas fa-user"></i>
                     <input type="text" name="name" placeholder=" Nombre y Apellido" autofocus required>
