@@ -23,9 +23,11 @@
 
 <body class="preFrecuentes">
 
-    <div class="menu">
-        <? include_once ("header.php") ?>
-    </div>
+        
+        <div class="menu">
+        <?php include_once ("header.php") ?>
+        </div>
+
     <div class="container" id="preFrecuentes">
 
         <h1>Preguntas Frecuentes</h1><br>
@@ -55,7 +57,7 @@
         </section>
     </div>
     <footer>
-        <? include_once("footer.php") ?>
+        <?php include_once("footer.php") ?>
     </footer>
 </body>
 

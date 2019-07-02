@@ -68,6 +68,11 @@ p{
 	font-size: 16px;
 	padding: 20px;
 }
+footer {
+    display: flex;
+    position: relative;
+
+}
 
 input:checked - article{
 	transition: height 0.3s ease;
@@ -81,9 +86,9 @@ input: checked - article.ac-medium{
 input: checked - article.ac-large{
 	height: 130px;
 }
-/*
 
-body.preFrecuentes{
+
+/*body.preFrecuentes{
   font-family: sans-serif;
   display: flex;
   text-align: center;
@@ -105,9 +110,20 @@ justify-content: center;
 border: 3px solid #aaa;
 }
 
-@media screen and (min-width 700px)
+footer {
+    display: flex;
+    position: relative;
+}
 
-@media screen and (min-width: 1000px)
-
-@media screen and (min-width: 1200px)
-*/
+input:checked - article{
+	transition: height 0.3s ease;
+}
+input: checked - article.ac-small{
+	height: 130px;
+}
+input: checked - article.ac-medium{
+	height: 130px;
+}
+input: checked - article.ac-large{
+	height: 130px;
+}*/
