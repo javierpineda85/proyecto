@@ -18,7 +18,25 @@ body{
 	margin: 0 auto;
 	margin-top: 10vh;
 }
+h1{
+	background-color: #000000
+}
+div.titulo {
+    display: inline-flex;
+    justify-content: center;
+    width: 100%;
+    background-color: black;
+    text-align: center;
 
+}
+
+div.titulo h3#blanco {
+    color: white;
+}
+
+div.titulo h3#naranja {
+    color: #E27F41;
+}
 label{
 	padding: 5px 20px;
 	position: relative;
