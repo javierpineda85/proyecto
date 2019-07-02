@@ -31,9 +31,9 @@
     <div class="container" id="preFrecuentes">
 
             <div class="titulo">
-                <h3 id="blanco">Preguntas</h3>
+                <h3 id="blanco">PREGUNTAS</h3>
 
-                <h3 id="naranja">Frecuentes</h3>
+                <h3 id="naranja">FRECUENTES</h3>
             </div>
 
         <section class="preguntasFrecuentes">
