@@ -9,7 +9,7 @@
     <!-- HOJAS DE STILOS-->
 
     <link rel="stylesheet" href="css/stylesForms.css">
-    <link rel="stylesheet" href="css/master.css">
+
 
     <!--FUENTES E ICONOS-->
 
@@ -30,11 +30,11 @@
 
 
         <div class="container">
-            <h1>Bienvenidos a</h1>
+            <h1 class="forms">Bienvenidos a</h1>
             <img class="logo" src="img/asalogo.png" alt="">
 
             <form class="login" action="login.php">
-                <h1>Ingresar</h1>
+                <h1 class="forms">Ingresar</h1>
                 <div class="formLog" id="email">
                     <i class="fas fa-at"></i>
                     <input type="email" name="email" placeholder="ejemplo@correo.com" autofocus required>
