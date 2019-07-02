@@ -37,6 +37,7 @@
     <div class="menu">
         <?php include_once ("header.php") ?>
     </div>
+<div class="contenedormayor">
     <div class="textocontacto">
         <h2 class="form-texto"><span>Si tienes preguntas, no dudes en contactarnos.</span></h2>
     </div>
@@ -83,6 +84,7 @@
             </form>
         </div>
     </div>
+  </div>
     <script src="js/fontawesome-all.min.js"></script>
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/up.js"></script>

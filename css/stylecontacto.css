@@ -4,18 +4,24 @@
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
+
+.contenedormayor{
+  margin-bottom: 10px;
+
+}
+
 .textocontacto .form-texto{
   background-image: url("../img/contactoimagen.jpg");
   text-align: center;
   font-size: 30px;
-  padding: 30px;
+  padding: 20px;
   border-bottom: 2px solid #E27F41;
   font-family: "Montserrat", sans-serif;
   font-style: italic;
-}
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 
-.textocontacto .form-texto span{
-  background-image: url("/img/contactoimagen.jpg");
 }
 
 .contenedorcontacto .form .form-header .form-titulo{
@@ -59,8 +65,6 @@
   margin: 2%;
 }
 
-
-
 .contenedor-iconos ion-icon{
   color: black;
   font-size: 40px;
@@ -82,7 +86,7 @@
   padding: 5px 35px;
   margin-top: 30px;
   padding-bottom: 30px;
-  border-radius: 5px;
+  /* border-radius: 5px; */
 }
 .contenedorcontacto .form .form-label{
   display: block;
@@ -127,9 +131,6 @@
   background: #e29741;
 }
 
-
-
-
 @media only screen and (min-width: 880px) {
   .containergral{
     display: flex;
@@ -149,13 +150,12 @@
   margin-bottom: 100px;
 }
 
+.contenedormayor{
+  margin: 30px;
+}
 
-
-
-
-
-
-
-
+.contenedorcontacto .form {
+  border-radius: 5px;
+}
 
 }
