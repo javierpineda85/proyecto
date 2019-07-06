@@ -31,7 +31,23 @@
                 <h1 class="forms"> Registrate</h1>
                 <div class="formLog" id="name">
                     <i class="fas fa-user"></i>
-                    <input type="text" name="name" placeholder=" Nombre y Apellido" autofocus required>
+                    <input type="text" name="name" placeholder=" Nombre " autofocus required>
+                </div>
+                <div class="formLog" id="lastName">
+                    <i class="fas fa-user"></i>
+                    <input type="text" name="name" placeholder=" Apellido " autofocus required>
+                </div>
+                <div class="formLog" id="userName">
+                    <i class="fas fa-user"></i>
+                    <input type="text" name="name" placeholder=" Nombre de Usuario " autofocus required>
+                </div>
+                <div class="formLog" id="fechaDeNac">
+                    <i class="fas fa-user"></i>
+                    <input type="date" name="name" placeholder=" Fecha de Nacimiento DD/MM/AAAA " autofocus required>
+                </div>
+                <div class="formLog" id="paisDeNac">
+                    <i class="fas fa-user"></i>
+                    <input type="text" name="name" placeholder=" Pais de nacimiento " autofocus required>
                 </div>
 
                 <div class="formLog" id="email">
