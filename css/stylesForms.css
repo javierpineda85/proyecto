@@ -12,11 +12,13 @@ body {
     /*overflow: hidden; */
 }
 
-section {
+section.perfil,
+section.login,
+section.registro {
 
     width: 100%;
     padding: 10px;
-    margin-bottom: 10px 0px 10px 0px;
+    margin: 10px 0px 10px 0px;
     background: #fff;
     flex-wrap: wrap;
     justify-content: center;
@@ -45,13 +47,14 @@ form {
 }
 
 h1.forms{
-    margin: 6px;
+
     text-align: center;
-    color: #E27F41;
+    color: white;
     font-size: 40px;
     background-color: #333333;
     width: 100%;
-    margin-bottom: 2px;
+    margin: 6px;
+    padding: 6px;
 }
 
 div.formLog {
@@ -69,6 +72,10 @@ label.admin {
     padding: 5px;
 
 
+}
+input.chkbx{
+  width: auto;
+  margin: 5px 10px 5px 10px;
 }
 
 div.formLog i {
@@ -89,6 +96,12 @@ i#avatar {
 
 i#perfil {
     color: white;
+}
+select.formLog{
+  width: 92%;
+  margin: 1px;
+  width: 40%;
+  padding: 5px;
 }
 
 button {

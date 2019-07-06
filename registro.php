@@ -1,5 +1,23 @@
+<?php
+$paises=[
+  "AR"=>"Argentina",
+  "BO"=>"Bolivia",
+  "BR"=>"Brasil",
+  "CL"=>"Chile",
+  "CO"=>"Colombia",
+  "EC"=>"Ecuador",
+  "GY"=>"Guayana",
+  "PY"=>"Paraguay",
+  "PE"=>"Perú",
+  "SR"=>"Surinam",
+  "TT"=>"Trinidad y Tobago",
+  "UY"=>"Uruguay",
+  "VE"=>"Venezuela",
+];
+ ?>
+
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="es" dir="ltr">
 
 <head>
 
@@ -27,7 +45,7 @@
 
     <section class="registro">
         <div class="container" id="registro">
-            <form class="registro" action="registro.php">
+            <form class="registro" action="registro.php" method="post">
                 <h1 class="forms"> Registrate</h1>
                 <div class="formLog" id="name">
                     <i class="fas fa-user"></i>
@@ -39,15 +57,21 @@
                 </div>
                 <div class="formLog" id="userName">
                     <i class="fas fa-user"></i>
-                    <input type="text" name="name" placeholder=" Nombre de Usuario " autofocus required>
+                    <input type="text" name="name" placeholder=" Elija un nombre de Usuario " autofocus required>
                 </div>
                 <div class="formLog" id="fechaDeNac">
-                    <i class="fas fa-user"></i>
-                    <input type="date" name="name" placeholder=" Fecha de Nacimiento DD/MM/AAAA " autofocus required>
+                    <i class="fas fa-birthday-cake"></i>
+                    <input type="date" name="name" autofocus required>
                 </div>
                 <div class="formLog" id="paisDeNac">
-                    <i class="fas fa-user"></i>
-                    <input type="text" name="name" placeholder=" Pais de nacimiento " autofocus required>
+                    <i class="fab fa-font-awesome-flag"></i> Pais de Nacimiento:
+<!--                    <input type="text" name="name" placeholder=" Pais de nacimiento " autofocus required>-->
+                    <select class="formLog" name="pais" id="pais">
+                    <?php  foreach ($paises as $pais => $codigo):?>
+                    <option value="<?php echo $paises[$codigo] ?>"><?php echo $paises[$pais] ?></option>
+                    <?php endforeach; ?>
+
+                    </select>
                 </div>
 
                 <div class="formLog" id="email">
@@ -66,8 +90,8 @@
                 </div>
 
                 <div class="formLog" id="phone">
-                    <i class="fas fa-mobile-alt"></i>
-                    <input type="phone" name="phone" placeholder="Código de área sin el 0, sin el 15" autofocus=required>
+                    <i class="fas fa-phone-alt"></i>
+                    <input type="tel" name="phone" pattern="[0-9]{10}" placeholder="Código de área sin el 0, sin el 15" autofocus required>
                 </div>
 
                 <div class="formLog" id="avatar">
