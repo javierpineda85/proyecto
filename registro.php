@@ -14,6 +14,8 @@ $paises=[
   "UY"=>"Uruguay",
   "VE"=>"Venezuela",
 ];
+
+
  ?>
 
 <!DOCTYPE html>
@@ -45,7 +47,7 @@ $paises=[
 
     <section class="registro">
         <div class="container" id="registro">
-            <form class="registro" action="registro.php" method="post">
+            <form class="registro" action="registro.php" method="post" enctype="multipart/form-data">
                 <h1 class="forms"> Registrate</h1>
                 <div class="formLog" id="name">
                     <i class="fas fa-user"></i>

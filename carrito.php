@@ -1,8 +1,7 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="es" dir="ltr">
 
 <head>
-    <meta charset="utf-8">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="Pragma" content="no-cache">
@@ -68,10 +67,10 @@
             </div>
         </div>
         <aside class="sumary">
-            <h2 class="sumary__title">SUMARY</h2>
+            <h2 class="sumary__title">RESUMEN DE COMPRA</h2>
             <div class="sumary">
 
-                <input class="sumary__code" type="text" name="prom__code" value="" placeholder="Tienes un código de descuento?">
+                <input class="sumary__code" type="text" name="prom__code" value="" placeholder="Código de descuento?">
                 <h5 class="sumary__title--prod">producto 1</h5>
                 <h5 class="sumary__price">$100</h5> <br>
                 <h5 class="sumary__title--prod">producto 2</h5>
