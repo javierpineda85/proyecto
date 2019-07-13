@@ -1,3 +1,33 @@
+<?php
+
+require_once("funciones.php");
+
+if (estaLogueado()) {
+  // header("location:homepage.php");exit;
+  header ("location:inicio-axel.php");exit;
+}
+
+if ($_POST) {
+  $errores = validarLogin($_POST);
+
+  if (count($errores) == 0) {
+    loguear($_POST["email"]);
+    header("location:inicio-axel.php");exit;
+    // header("location:login.php"); exit;
+
+  } else {
+    foreach ($errores as $error) {
+      echo $error . "<br>";
+      if ($error == "Usuario no registrado") { //este if nos lleva al registro.php para crear un nuevo usuario
+        
+        header("location:registro.php");exit;
+      }
+      }
+    }
+
+}
+ ?>
+
 <!DOCTYPE html>
 <html lang="es" dir="ltr">
 
@@ -33,7 +63,7 @@
             <h1 class="forms">Bienvenidos a</h1>
             <img class="logo" src="img/asalogo.png" alt="">
 
-            <form class="login" action="login.php">
+            <form class="login" action="login.php" method="post">
                 <h1 class="forms">Ingresar</h1>
                 <div class="formLog" id="email">
                     <i class="fas fa-at"></i>
@@ -51,9 +81,9 @@
 
                     <input type="checkbox" class="chkbx"> Recuerdame. <br>
 
-                    <p>Al ingresar aceptas nuestras políticas de uso.</p><br>
+                    <p class="formLog">Al ingresar aceptas nuestras políticas de uso.</p><br>
 
-                    <p>Si todavía no estás registrado <a href="registro.php">presiona aquí</a></p>
+                    <p class="formLog">Si todavía no estás registrado <a href="registro.php" class="formLog">presiona aquí</a></p>
 
                 </div>
 
