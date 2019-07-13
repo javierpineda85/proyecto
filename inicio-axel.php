@@ -1,3 +1,10 @@
+<?php
+require_once("funciones.php");
+
+$usuarioLogueado = traerUsuarioLogueado();
+
+ ?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -5,7 +12,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Inicio</title>
+    <!-- <title>Inicio</title> -->
+
+    <!-- la idea es comprobar si trae el usuario y lo muestro en el title-->
+    <?php if ($usuarioLogueado != null) : ?>
+      <title>Bienvenido <?php echo $usuarioLogueado["name"]?></title>
+    <?php else: ?>
+      <title>Bienvenido Invitado</title>
+    <?php endif; ?>
+
+
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">

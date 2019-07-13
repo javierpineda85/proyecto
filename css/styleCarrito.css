@@ -97,7 +97,8 @@ input.prod__cantidad {
 }
 
 button.prod__buttom--delete {
-    width: 50%;
+    width: auto;
+    padding: 0px 10px 0px 10px;
     background-color: #E27F41;
     border: none;
 
