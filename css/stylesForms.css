@@ -6,7 +6,7 @@
 
 body {
     font-family: "Montserrat", sans-serif;
-/*    display: flex;*/
+    /*    display: flex;*/
     align-items: center;
     justify-content: center;
     /*overflow: hidden; */
@@ -23,19 +23,20 @@ section.registro {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-/*    margin-bottom: 500px;*/
+    /*    margin-bottom: 500px;*/
 
 
 }
 
 
-div.container{
-    width: 350px;
+div.container {
+    width: 320px;
     padding: 3px;
     flex-wrap: wrap;
     border: 1px solid #E27F41;
 
 }
+
 img.logo {
     width: 120px;
     display: flex;
@@ -46,13 +47,13 @@ form {
     padding: 15px;
 }
 
-h1.forms{
+h1.forms {
 
     text-align: center;
     color: white;
     font-size: 40px;
     background-color: #333333;
-    width: 100%;
+    width: auto;
     margin: 6px;
     padding: 6px;
 }
@@ -60,7 +61,7 @@ h1.forms{
 div.formLog {
     justify-content: center;
     margin-bottom: 15px;
-/*    border: 1px solid #aaa;*/
+    /*    border: 1px solid #aaa;*/
 
 }
 
@@ -73,9 +74,10 @@ label.admin {
 
 
 }
-input.chkbx{
-  width: auto;
-  margin: 5px 10px 5px 10px;
+
+input.chkbx {
+    width: auto;
+    margin: 5px 10px 5px 10px;
 }
 
 div.formLog i {
@@ -97,11 +99,12 @@ i#avatar {
 i#perfil {
     color: white;
 }
-select.formLog{
-  width: 92%;
-  margin: 1px;
-  width: 40%;
-  padding: 5px;
+
+select.formLog {
+    width: 92%;
+    margin: 1px;
+    width: 40%;
+    padding: 5px;
 }
 
 button {
@@ -152,7 +155,7 @@ div.formLog#button {
 }
 
 input.chkbx {
-/*    margin: 5px;*/
+    /*    margin: 5px;*/
 
 }
 
@@ -164,35 +167,46 @@ input.file {
 
 }
 
-p {
+p.formLog {
     margin: 5px;
     font-size: 12px;
 }
 
-a.forms {
+a.formLog {
     font-size: 13px;
     text-decoration: none;
     color: #1a2537;
     font-weight: 600;
 }
 
-a.forms:hover {
+a.formLog:hover {
     color: cadetblue;
 }
 
 
-@media screen and (max-width 700px) {
+@media screen and (min-width: 700px) {
     body {
         font-family: sans-serif;
         margin: 0 auto;
     }
 
-    section {
+    section.perfil,
+    section.login,
+    section.registro {
 
         width: 100%;
         padding: 0px;
 
     }
+
+    div.container {
+        width: 350px;
+        padding: 3px;
+        flex-wrap: wrap;
+        border: 1px solid #E27F41;
+
+    }
+
 
     img.logo {
         width: 30%;

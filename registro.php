@@ -12,9 +12,29 @@ $paises=[
   "SR"=>"Surinam",
   "TT"=>"Trinidad y Tobago",
   "UY"=>"Uruguay",
-  "VE"=>"Venezuela",
+  "VE"=>"Venezuela"
 ];
 
+require_once("funciones.php");
+
+if(estaLogueado()){
+  // header("location:inicio.php");exit;
+  header("location:inicio-axel.php");exit;
+}
+
+if($_POST){
+  $errores=validarRegistracion($_POST);
+  // si NO hay errores
+  var_dump($errores);
+  if(count($errores)== 0){
+    $usuario=armarUsuario($_POST);
+    //guarda usuario
+    guardarUsuario($usuario);
+
+    // header("location:inicio.php");exit;
+    // header("location:inicio-axel.php");exit;
+  }
+}
 
  ?>
 
@@ -55,15 +75,15 @@ $paises=[
                 </div>
                 <div class="formLog" id="lastName">
                     <i class="fas fa-user"></i>
-                    <input type="text" name="name" placeholder=" Apellido " autofocus required>
+                    <input type="text" name="lastName" placeholder=" Apellido " autofocus required>
                 </div>
                 <div class="formLog" id="userName">
                     <i class="fas fa-user"></i>
-                    <input type="text" name="name" placeholder=" Elija un nombre de Usuario " autofocus required>
+                    <input type="text" name="userName" placeholder=" Elija un nombre de Usuario " autofocus required>
                 </div>
                 <div class="formLog" id="fechaDeNac">
                     <i class="fas fa-birthday-cake"></i>
-                    <input type="date" name="name" autofocus required>
+                    <input type="date" name="date" autofocus required>
                 </div>
                 <div class="formLog" id="paisDeNac">
                     <i class="fab fa-font-awesome-flag"></i> Pais de Nacimiento:
@@ -104,9 +124,9 @@ $paises=[
                 <button type="submit" name="button">Registrarme</button>
                 <div class="formLog" id="recordar">
 
-                    <p>Al ingresar aceptas nuestras políticas de uso.</p><br>
+                    <p class="formLog">Al ingresar aceptas nuestras políticas de uso.</p><br>
 
-                    <p>Si ya tienes un usuario <a class="forms" href="login.php">presiona aquí</a></p>
+                    <p class="formLog">Si ya tienes un usuario <a class="formLog" href="login.php">presiona aquí</a></p>
 
                 </div>
 

@@ -40,8 +40,8 @@
 
                 <div class="contenido">
 
-                    <h2>Título</h2>
-                    <p> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                    <h2 class="product">Título</h2>
+                    <p class="product"> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
                     <a href="carrito.php" id="comprar">Comprar ahora</a>
                     <a href="#" id="ampliar">Agrandar imagen</a>
                     <!-- <a href="#"id="contenido">Agregar al carrito</a> NO ENTIENDO LA DIFERENCIA ENTRE COMPRAR Y AGREGAR -->
@@ -56,7 +56,7 @@
             </div>
 
             <div class="consultas">
-                <p><b>Tenés alguna consulta? </b> <i>Comunicate ahora con nuestros operadores y te ayudaran: <b> 261-669 7897 </b></i></p>
+                <p class="product"><b>Tenés alguna consulta? </b> <i class="product">Comunicate ahora con nuestros operadores y te ayudaran: <b> 261-669 7897 </b></i></p>
             </div>
         </section>
         <section class="productos">
@@ -70,8 +70,8 @@
 
                 <div class="contenido">
 
-                    <h2>Título</h2>
-                    <p> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                    <h2 class="product">Título</h2>
+                    <p class="product"> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
                     <a href="carrito.php" id="comprar">Comprar ahora</a>
                     <a href="#" id="ampliar">Agrandar imagen</a>
                     <!-- <a href="#"id="contenido">Agregar al carrito</a> NO ENTIENDO LA DIFERENCIA ENTRE COMPRAR Y AGREGAR -->
@@ -86,7 +86,7 @@
             </div>
 
             <div class="consultas">
-                <p><b>Tenés alguna consulta? </b> <i>Comunicate ahora con nuestros operadores y te ayudaran: <b> 261-669 7897 </b></i></p>
+                <p class="product"><b>Tenés alguna consulta? </b> <i class="product">Comunicate ahora con nuestros operadores y te ayudaran: <b> 261-669 7897 </b></i></p>
             </div>
         </section>
 
