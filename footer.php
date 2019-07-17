@@ -27,7 +27,7 @@
 					<h3 class="font-weight-bolder">Contactos</h3>
 					<span class="d-flex"><i class="fas fa-map-marker-alt mr-2"></i><p>244 Lorem ipsum dolor sit amet</p></span>
 					<span class="d-flex"><i class="fas fa-phone mr-2"></i><p>(+54) 261 669 7897</p></span>
-					<span class="d-flex"><i class="fas fa-envelope mr-2"></i><p>asa.mendozaunidos@gmail.com</p></span>
+					<span class="d-flex"><i class="fas fa-envelope mr-2"></i><p>asa.mzaunidos@gmail.com</p></span>
 				</div>
 				<div class="footer-columna">
 					<h3 class="font-weight-bolder">Nosotros</h3>
