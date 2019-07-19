@@ -1,9 +1,9 @@
 <?php
-
+//session_start();
 require_once("funciones.php");
 
 if (estaLogueado()) {
-  // header("location:homepage.php");exit;
+
   header ("location:inicio-axel.php");exit;
 }
 
@@ -17,9 +17,9 @@ if ($_POST) {
 
   } else {
     foreach ($errores as $error) {
-      echo $error . "<br>";
+      // echo $error . "<br>";
       if ($error == "Usuario no registrado") { //este if nos lleva al registro.php para crear un nuevo usuario
-        
+
         header("location:registro.php");exit;
       }
       }
@@ -60,6 +60,18 @@ if ($_POST) {
 
 
         <div class="container">
+          <div class="errores">
+              <ul>
+                <?php if (isset($errores)): ?>
+                  OOPs! algo salió mal:
+                  <?php foreach ($errores as $error): ?>
+                    <li><?php echo $error; ?></li>
+                  <?php endforeach; ?>
+                  Por favor verificá los datos y volvé a intentarlo.
+                <?php endif; ?>
+
+                </ul>
+          </div>
             <h1 class="forms">Bienvenidos a</h1>
             <img class="logo" src="img/asalogo.png" alt="">
 

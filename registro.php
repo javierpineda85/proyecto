@@ -25,14 +25,16 @@ if(estaLogueado()){
 if($_POST){
   $errores=validarRegistracion($_POST);
   // si NO hay errores
-  var_dump($errores);
+
   if(count($errores)== 0){
     $usuario=armarUsuario($_POST);
     //guarda usuario
     guardarUsuario($usuario);
 
+    // loguear usuario
+    loguear($_POST["email"]);
     // header("location:inicio.php");exit;
-    // header("location:inicio-axel.php");exit;
+    header("location:inicio-axel.php");exit;
   }
 }
 
@@ -67,56 +69,78 @@ if($_POST){
 
     <section class="registro">
         <div class="container" id="registro">
+            <div class="errores">
+                <ul>
+                  <?php if (isset($errores)): ?>
+                    OOPs! algo salió mal:
+                    <?php foreach ($errores as $error): ?>
+                      <li><?php echo $error; ?></li>
+                    <?php endforeach; ?>
+                    Por favor verificá los datos y volvé a intentarlo.
+                  <?php endif; ?>
+
+                  </ul>
+            </div>
             <form class="registro" action="registro.php" method="post" enctype="multipart/form-data">
                 <h1 class="forms"> Registrate</h1>
                 <div class="formLog" id="name">
+                    <p class="info">Colocá tu nombre</p>
                     <i class="fas fa-user"></i>
                     <input type="text" name="name" placeholder=" Nombre " autofocus required>
                 </div>
                 <div class="formLog" id="lastName">
+                    <p class="info">Colocá tu apellido</p>
                     <i class="fas fa-user"></i>
                     <input type="text" name="lastName" placeholder=" Apellido " autofocus required>
                 </div>
                 <div class="formLog" id="userName">
+                    <p class="info">Tu usuario debe contener al menos 6 caracteres</p>
                     <i class="fas fa-user"></i>
                     <input type="text" name="userName" placeholder=" Elija un nombre de Usuario " autofocus required>
                 </div>
                 <div class="formLog" id="fechaDeNac">
+                    <p class="info">Ingresa tu fecha de nacimiento</p>
                     <i class="fas fa-birthday-cake"></i>
                     <input type="date" name="date" autofocus required>
                 </div>
                 <div class="formLog" id="paisDeNac">
-                    <i class="fab fa-font-awesome-flag"></i> Pais de Nacimiento:
-<!--                    <input type="text" name="name" placeholder=" Pais de nacimiento " autofocus required>-->
-                    <select class="formLog" name="pais" id="pais">
-                    <?php  foreach ($paises as $pais => $codigo):?>
-                    <option value="<?php echo $paises[$codigo] ?>"><?php echo $paises[$pais] ?></option>
-                    <?php endforeach; ?>
 
+                    <i class="fab fa-font-awesome-flag"></i> Pais de Nacimiento:
+                    <!--                    <input type="text" name="name" placeholder=" Pais de nacimiento " autofocus required>-->
+                    <select class="formLog" name="pais" id="pais">
+
+                        <?php foreach ($paises as $codigo => $pais): ?>
+                          <option value="<?php echo $codigo; ?>"> <?php echo $pais; ?> </option>
+                        <?php endforeach; ?>
                     </select>
                 </div>
 
                 <div class="formLog" id="email">
+                    <p class="info">Ingresá tu correo electronico</p>
                     <i class="fas fa-at"></i>
                     <input type="email" name="email" placeholder="ejemplo@correo.com" autofocus required>
                 </div>
 
 
                 <div class="formLog" id="password">
+                    <p class="info">Tu contraseña debe contener: mayúsculas, minúsculas y numeros</p>
                     <i class="fas fa-key"></i>
                     <input type="password" name="password" placeholder="Ingresa tu contraseña" autofocus required>
                 </div>
                 <div class="formLog" id="password">
+                    <p class="info">Tu contraseña debe contener: mayúsculas, minúsculas y numeros</p>
                     <i class="fas fa-key"></i>
                     <input type="password" name="password1" placeholder="Repite tu contraseña" autofocus required>
                 </div>
 
                 <div class="formLog" id="phone">
+                    <p class="info"> Recordá colocar tu número sin el 0 y sin en 15</p>
                     <i class="fas fa-phone-alt"></i>
                     <input type="tel" name="phone" pattern="[0-9]{10}" placeholder="Código de área sin el 0, sin el 15" autofocus required>
                 </div>
 
                 <div class="formLog" id="avatar">
+                    <p class="info">Podés elegir tu avatar</p>
                     <i class="fas fa-image" id="avatar"></i>
                     <input class="file" type="file" name="avatar" required>
                 </div>
