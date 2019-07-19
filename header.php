@@ -1,3 +1,10 @@
+<?php
+require_once("funciones.php");
+
+$usuarioLogueado = traerUsuarioLogueado();
+
+ ?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -61,9 +68,23 @@
                 <li class="nav-item">
                     <a class="nav-link" href="capacitacion.php"><i class="fas fa-shopping-cart fa-lg"></i></a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="login.php">Ingresar</a>
+                
+<!-- aqui si el usuario esta loguado va a aparecer mi perfil y cerrar sesion -->
+                <?php if ($usuarioLogueado != null) : ?>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Mi Perfil
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="perfil.php">Mi perfil</a>
+                        <a class="dropdown-item" href="logout.php">Cerrar sesión</a>
+                    </div>
                 </li>
+              <?php else: ?>
+              <li class="nav-item">
+                <a class="nav-link" href="login.php">Ingresar</a>
+                <?php endif; ?>
+                <!-- aqui cierra el if de usuario logueado -->
 
             </ul>
             <form class="form-inline my-2 my-lg-0">
