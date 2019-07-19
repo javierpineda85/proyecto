@@ -19,7 +19,7 @@ function validarRegistracion($datos){
       $errores=["error2-1"=>"completar nombre con al menos 3 caracteres"];
     }
     if (($_POST["userName"]==null) || strlen($_POST["userName"]) < 6)  {
-      $errores=["error2-3"=>"completar nombre con al menos 6 caracteres"];
+      $errores=["error2-3"=>"completar nombre DE USUARIO con al menos 6 caracteres"];
     }
     if (($_POST["date"]==null)) {
       $errores=["error2-4"=>"Debe ingresar un formato de fecha válido"];
@@ -47,12 +47,12 @@ function validarRegistracion($datos){
     }elseif (($_POST["password"] == $_POST["password1"])) {
         $clave=$_POST["password"];
 
-        validar_clave($clave,$errores);
+        $errores = validar_clave($clave,$errores);
         // llamar_errores($errores);
-        var_dump($errores);
+
         $hash = password_hash($_POST["password"],PASSWORD_DEFAULT);
         // $errores=["error0"];
-        echo "=>ACA VA EL GUARDAR";
+        // echo "=>ACA VA EL GUARDAR";
 
         // exit;
 
@@ -83,11 +83,11 @@ function validarRegistracion($datos){
             // header("location:inicio-axel.php");exit;
           }
         }else {
-          echo $error." ".$valor;
+          return $errores;
         }
       }
     }
-
+    return $errores;
     //header("Location:https://digitalhouse.com");
 
   //}
@@ -121,34 +121,11 @@ function validar_clave($clave,$errores){
    }
 
  }
- var_dump($errores);
+
+    return $errores;
 }
 
-// llamra a errores me parece al pedo ya que en la linea 29 de registro.php hay algo parecido a la funcion de errores
 
-// function llamar_errores($errores){
-//   global $errores;
-//   global $clave;
-//
-//   foreach ($errores as $error=> $valor) {
-//     if ($errores=="0") {
-//       echo "Bienvenido";
-//         //
-//         // $usuario=armarUsuario($_POST);
-//         // //guarda usuario
-//         // guardarUsuario($usuario);
-//         //
-//         // // header("location:inicio.php");exit;
-//         // header("location:inicio-axel.php");exit;
-//         //
-//
-//     }else {
-//       for ($i=0; $i <count($errores) ; $i++) {
-//         echo $error." ".$valor;
-//       }
-//     }
-//   }
-// }
 
 
  //
