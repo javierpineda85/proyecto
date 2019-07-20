@@ -1,4 +1,5 @@
 <?php
+$email="";
 //session_start();
 require_once("funciones.php");
 
@@ -8,6 +9,7 @@ if (estaLogueado()) {
 }
 
 if ($_POST) {
+  $email=$_POST["email"];
   $errores = validarLogin($_POST);
 
   if (count($errores) == 0) {
@@ -21,6 +23,7 @@ if ($_POST) {
       if ($error == "Usuario no registrado") { //este if nos lleva al registro.php para crear un nuevo usuario
 
         header("location:registro.php");exit;
+
       }
       }
     }
@@ -60,18 +63,18 @@ if ($_POST) {
 
 
         <div class="container">
-          <div class="errores">
-              <ul>
-                <?php if (isset($errores)): ?>
-                  OOPs! algo salió mal:
-                  <?php foreach ($errores as $error): ?>
+            <div class="errores">
+                <ul>
+                    <?php if (isset($errores)): ?>
+                    OOPs! algo salió mal:
+                    <?php foreach ($errores as $error): ?>
                     <li><?php echo $error; ?></li>
-                  <?php endforeach; ?>
-                  Por favor verificá los datos y volvé a intentarlo.
-                <?php endif; ?>
+                    <?php endforeach; ?>
+                    Por favor verificá los datos y volvé a intentarlo.
+                    <?php endif; ?>
 
                 </ul>
-          </div>
+            </div>
             <h1 class="forms">Bienvenidos a</h1>
             <img class="logo" src="img/asalogo.png" alt="">
 
@@ -79,12 +82,12 @@ if ($_POST) {
                 <h1 class="forms">Ingresar</h1>
                 <div class="formLog" id="email">
                     <i class="fas fa-at"></i>
-                    <input type="email" name="email" placeholder="ejemplo@correo.com" autofocus required>
+                    <input type="email" name="email" placeholder="ejemplo@correo.com" value="<?= $email; ?>" autofocus required>
                 </div>
 
                 <div class="formLog" id="password">
                     <i class="fas fa-key"></i>
-                    <input type="password" name="password" autofocus required>
+                    <input type="password" name="password" placeholder="Ingresá tu contraseña" autofocus required>
                 </div>
 
                 <button type="submit" name="button">Entrar</button>
