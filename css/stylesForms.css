@@ -55,17 +55,19 @@ h1.forms {
 }
 
 .container .errores ul {
-  width: 320px;
-  justify-content: center;
-  margin: 5px 5px 5px 10px;
-  /* padding: 5px; */
-  color: white;
-  background-color: #E27F41;
+    width: 320px;
+    justify-content: center;
+    margin: 5px 5px 5px 10px;
+    /* padding: 5px; */
+    color: white;
+    background-color: #E27F41;
 }
-.container .errores ul li{
-  list-style: none;
-  font-style: italic;
+
+.container .errores ul li {
+    list-style: none;
+    font-style: italic;
 }
+
 div.formLog {
     justify-content: center;
     margin-bottom: 15px;
@@ -177,7 +179,7 @@ input.chkbx {
 input.file {
     font-size: 11px;
     border: none;
-    color: white;
+    color: black;
     border-radius: 5px;
 
 }
