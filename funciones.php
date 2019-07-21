@@ -9,17 +9,17 @@ function validarRegistracion($datos){
    $errores=[];
 
     if (($_POST["name"]==null) && ($_POST["email"]==null)) {
-      $errores=["error1"=>"completar campos"];
+      $errores=["error1"=>"Debe completar campos de nombre y email"];
 
     }
     if (($_POST["name"]==null) || strlen($_POST["name"]) < 3) {
-      $errores=["error2"=>"completar nombre con al menos 3 caracteres"];
+      $errores=["error2"=>"Debe completar nombre con al menos 3 caracteres"];
     }
     if (($_POST["lastName"]==null) || strlen($_POST["lastName"]) < 3)  {
-      $errores=["error2-1"=>"completar nombre con al menos 3 caracteres"];
+      $errores=["error2-1"=>"Debe completar nombre con al menos 3 caracteres"];
     }
     if (($_POST["userName"]==null) || strlen($_POST["userName"]) < 6)  {
-      $errores=["error2-3"=>"completar nombre DE USUARIO con al menos 6 caracteres"];
+      $errores=["error2-3"=>"Debe completar nombre DE USUARIO con al menos 6 caracteres"];
     }
     if (($_POST["date"]==null)) {
       $errores=["error2-4"=>"Debe ingresar un formato de fecha válido"];
@@ -29,7 +29,7 @@ function validarRegistracion($datos){
 
     }
     if ($_POST["email"]==null) {
-      $errores=["error3" =>"completar mail"];
+      $errores=["error3" =>"Faltó completar mail"];
 
     }
     if (($_POST["phone"]==null)) {
@@ -37,12 +37,12 @@ function validarRegistracion($datos){
 
     }
     if (filter_var($_POST["email"], FILTER_VALIDATE_EMAIL)==false){
-    $errores=["error4"=>"formato incorrecrto"];
+    $errores=["error4"=>"Formato de email incorrecrto"];
 
 
     }
     if (($_POST["password"] ==null) || ($_POST["password1"]==null)){
-      $errores=["error5"=>"Uno de los campos esta vacio"];
+      $errores=["error5"=>"Uno de los campos de las contraseñas esta vacio"];
 
     }elseif (($_POST["password"] == $_POST["password1"])) {
         $clave=$_POST["password"];
@@ -152,6 +152,7 @@ function existeElEmail($email){
   if ($usuario == null) {
     return false;
   } else {
+
     return true;
   }
 }
@@ -244,4 +245,17 @@ function traerUsuarioLogueado() {
 
   return null;
 }
+function persistencia($datos) {
+  return [
+    "name" => ucfirst($datos["name"]),
+    "lastName" => ucfirst($datos["lastName"]),
+    "userName" => ucfirst($datos["userName"]),
+    "date" => $datos["date"],
+    "pais" => ucfirst($datos["pais"]),
+    "email" => $datos["email"],
+    "phone" => $datos["phone"],
+    "avatar" => $datos["avatar"]
+  ];
+}
+
  ?>
