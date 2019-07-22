@@ -33,6 +33,7 @@ div.container {
 ****************************/
 
 section.productos {
+/*    width: 100%;*/
     width: 500px;
     display: flex;
     flex-wrap: wrap;
@@ -122,8 +123,8 @@ section.productos {
     display: inline-block;
 }
 
-.container .product .contenido h2.product,
-.container .product .contenido p.product,
+.container .product .contenido h2,
+.container .product .contenido p,
 .container .product .contenido a#comprar,
 .container .product .contenido a#ampliar {
     opacity: 0;
@@ -132,13 +133,13 @@ section.productos {
 
 }
 
-.container .product:hover .contenido h2.product {
+.container .product:hover .contenido h2 {
     opacity: 1;
     transform: translateY(0px);
     transition-delay: 0.3s;
 }
 
-.container .product:hover .contenido p.product {
+.container .product:hover .contenido p {
     opacity: 1;
     transform: translateY(0px);
     transition-delay: 0.4s;
@@ -220,8 +221,24 @@ footer {
 
 }
 
-*************************** * MEDIAS QUERIES MAX 460PX * ***************************
-@media (max-width 460px) {
+*************************** * MEDIAS QUERIES MAX 800PX * ***************************
+
+/*
+@media screen and (min-width: 700px) {
+
+
+    section.productos {
+        width: 500px;
+
+    }
+
+    .container .product {
+        position: relative;
+        width: 90%;
+
+
+    }
+    
 
     .container .prod-relacionados .prod-rel {
         width: 100%;
@@ -230,5 +247,13 @@ footer {
 
 
     }
+    .container .prod-relacionados .titulo {
+    display: block;
+    justify-content: center;
+    width: 100%;
+
 
 }
+
+}
+*/
