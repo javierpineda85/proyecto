@@ -33,6 +33,7 @@ div.container {
 ****************************/
 
 section.productos {
+/*    width: 100%;*/
     width: 500px;
     display: flex;
     flex-wrap: wrap;
@@ -223,6 +224,23 @@ footer {
 *************************** * MEDIAS QUERIES MAX 460PX * ***************************
 @media (max-width: 460px) {
 
+/*
+@media screen and (min-width: 700px) {
+
+
+    section.productos {
+        width: 500px;
+
+    }
+
+    .container .product {
+        position: relative;
+        width: 90%;
+
+
+    }
+    
+
     .container .prod-relacionados .prod-rel {
         width: 100%;
         display: inline-flex;
@@ -230,5 +248,13 @@ footer {
 
 
     }
+    .container .prod-relacionados .titulo {
+    display: block;
+    justify-content: center;
+    width: 100%;
+
 
 }
+
+}
+*/

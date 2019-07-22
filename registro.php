@@ -1,4 +1,14 @@
 <?php
+$name ="";
+$lastName ="";
+$userName ="";
+$date ="";
+$pais ="";
+$email ="";
+$phone ="";
+
+
+
 $paises=[
   "AR"=>"Argentina",
   "BO"=>"Bolivia",
@@ -23,17 +33,47 @@ if(estaLogueado()){
 }
 
 if($_POST){
-  $errores=validarRegistracion($_POST);
-  // si NO hay errores
-  var_dump($errores);
-  if(count($errores)== 0){
-    $usuario=armarUsuario($_POST);
-    //guarda usuario
-    guardarUsuario($usuario);
 
-    // header("location:inicio.php");exit;
-    // header("location:inicio-axel.php");exit;
+
+  // mantenemos los datos en caso de error
+//     persistencia($_POST);
+
+        $name =$_POST["name"];
+        $lastName =$_POST["lastName"];
+        $userName =$_POST["userName"];
+        $date =$_POST["date"];
+        $pais =$_POST["pais"];
+        $email =$_POST["email"];
+        $phone =$_POST["phone"];
+        // $avatar =$_POST["avatar"];
+
+
+$existeMail = existeElEmail($_POST["email"]);
+    
+if ($existeMail == false) {
+
+  $errores=validarRegistracion($_POST);
+    
+  if(count($errores)== 0){
+   $usuario=armarUsuario($_POST);
+   //guarda usuario
+
+   guardarUsuario($usuario);
+
+   // loguear usuario
+   loguear($_POST["email"]);
+
+  
+   // header("location:inicio.php");exit;
+   header("location:inicio-axel.php");exit;
   }
+} else {
+       $errores["email"] = "El mail que ingresaste ya está registrado";
+
+}
+
+
+
 }
 
  ?>
@@ -67,58 +107,83 @@ if($_POST){
 
     <section class="registro">
         <div class="container" id="registro">
+            <div class="errores">
+                <ul>
+                    <?php if (isset($errores)): ?>
+                    OOPS! algo salió mal:
+                    <?php foreach ($errores as $error): ?>
+                    <li><?php echo $error; ?></li>
+                    <?php endforeach; ?>
+                    Por favor verificá los datos y volvé a intentarlo.
+                    <?php endif; ?>
+
+                </ul>
+            </div>
             <form class="registro" action="registro.php" method="post" enctype="multipart/form-data">
                 <h1 class="forms"> Registrate</h1>
                 <div class="formLog" id="name">
+                    <p class="info">Colocá tu nombre</p>
                     <i class="fas fa-user"></i>
-                    <input type="text" name="name" placeholder=" Nombre " autofocus required>
+                    <input type="text" name="name" placeholder="Nombre " value="<?= $name ?>" autofocus required>
                 </div>
                 <div class="formLog" id="lastName">
+                    <p class="info">Colocá tu apellido</p>
                     <i class="fas fa-user"></i>
-                    <input type="text" name="lastName" placeholder=" Apellido " autofocus required>
+                    <input type="text" name="lastName" placeholder=" Apellido " value="<?=$lastName; ?>" autofocus required>
                 </div>
                 <div class="formLog" id="userName">
+                    <p class="info">Tu usuario debe contener al menos 6 caracteres</p>
                     <i class="fas fa-user"></i>
-                    <input type="text" name="userName" placeholder=" Elija un nombre de Usuario " autofocus required>
+                    <input type="text" name="userName" placeholder=" Elija un nombre de Usuario " value="<?= $userName; ?>" autofocus required>
                 </div>
                 <div class="formLog" id="fechaDeNac">
+                    <p class="info">Ingresa tu fecha de nacimiento</p>
                     <i class="fas fa-birthday-cake"></i>
-                    <input type="date" name="date" autofocus required>
+                    <input type="date" name="date" value="<?= $date; ?>" autofocus required>
                 </div>
                 <div class="formLog" id="paisDeNac">
-                    <i class="fab fa-font-awesome-flag"></i> Pais de Nacimiento:
-<!--                    <input type="text" name="name" placeholder=" Pais de nacimiento " autofocus required>-->
-                    <select class="formLog" name="pais" id="pais">
-                    <?php  foreach ($paises as $pais => $codigo):?>
-                    <option value="<?php echo $paises[$codigo] ?>"><?php echo $paises[$pais] ?></option>
-                    <?php endforeach; ?>
 
+                    <i class="fab fa-font-awesome-flag"></i> Pais de Nacimiento:
+                    <!--                    <input type="text" name="name" placeholder=" Pais de nacimiento " autofocus required>-->
+                    <select class="formLog" name="pais" id="pais">
+
+                        <?php foreach ($paises as $codigo => $pais): ?>
+
+                        <!-- // aqui necesita tener persistencia el pais elegido -->
+
+                        <option value="<?php echo $codigo; ?>"> <?php echo $pais; ?> </option>
+                        <?php endforeach; ?>
                     </select>
                 </div>
 
                 <div class="formLog" id="email">
+                    <p class="info">Ingresá tu correo electronico</p>
                     <i class="fas fa-at"></i>
-                    <input type="email" name="email" placeholder="ejemplo@correo.com" autofocus required>
+                    <input type="email" name="email" placeholder="ejemplo@correo.com" value="<?= $email; ?>" autofocus required>
                 </div>
 
 
                 <div class="formLog" id="password">
+                    <p class="info">Tu contraseña debe contener: mayúsculas, minúsculas y numeros</p>
                     <i class="fas fa-key"></i>
                     <input type="password" name="password" placeholder="Ingresa tu contraseña" autofocus required>
                 </div>
                 <div class="formLog" id="password">
+                    <p class="info">Tu contraseña debe contener: mayúsculas, minúsculas y numeros</p>
                     <i class="fas fa-key"></i>
                     <input type="password" name="password1" placeholder="Repite tu contraseña" autofocus required>
                 </div>
 
                 <div class="formLog" id="phone">
+                    <p class="info"> Recordá colocar tu número sin el 0 y sin en 15</p>
                     <i class="fas fa-phone-alt"></i>
-                    <input type="tel" name="phone" pattern="[0-9]{10}" placeholder="Código de área sin el 0, sin el 15" autofocus required>
+                    <input type="tel" name="phone" pattern="[0-9]{10}" placeholder="Código de área sin el 0, sin el 15" value="<?= $phone; ?>" autofocus required>
                 </div>
 
                 <div class="formLog" id="avatar">
+                    <p class="info">Podés elegir tu avatar</p>
                     <i class="fas fa-image" id="avatar"></i>
-                    <input class="file" type="file" name="avatar" required>
+                    <input class="file" type="file" name="avatar" value="<?= $avatar; ?>">
                 </div>
 
                 <button type="submit" name="button">Registrarme</button>
