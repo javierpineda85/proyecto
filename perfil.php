@@ -73,7 +73,7 @@ MODIFIQUE SENAS
   			</div>
 -->
                 <div class="formLog" id="phone">
-                    <i class="fas fa-phone-alt"></i>
+                    <i class="fas fa-phone"></i>
                     <input type="tel" name="phone" pattern="[0-9]{10}" placeholder="Código de área sin el 0, sin el 15" autofocus required>
                 </div>
                 <div class="formLog" id="admin">
