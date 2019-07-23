@@ -9,7 +9,7 @@
     <!-- HOJAS DE STILOS-->
 
     <link rel="stylesheet" href="css/stylesCapa.css">
-<!--    <link rel="stylesheet" href="css/master.css">-->
+    <!--    <link rel="stylesheet" href="css/master.css">-->
 
     <!--FUENTES E ICONOS-->
 
@@ -28,6 +28,17 @@
 
 
     <div class="container" id="capacitacion">
+
+        <div class="titulo">
+
+            <h1 class="capacitacion"> CAPACITACIONES</h1>
+            <div class="span">
+                <span class="capacitacion">Porque sabemos que es importante estar siempre capacitado, es que ofrecemos este espacio para que puedas invertir en tu futuro. Mirá los cursos que A.S.A Mendoza tiene para ofrecerte. Pasá el mousse sobre la imagen para obtener más información.</span>
+            </div>
+
+        </div>
+
+
 
         <section class="productos">
 
@@ -59,6 +70,7 @@
                 <p><b>Tenés alguna consulta? </b> <i>Comunicate ahora con nuestros operadores y te ayudaran: <b> 261-669 7897 </b></i></p>
             </div>
         </section>
+
         <section class="productos">
 
             <div class="product">
