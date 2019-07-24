@@ -66,7 +66,7 @@ if ($_POST) {
             <div class="errores">
                 <ul>
                     <?php if (isset($errores)): ?>
-                    OOPs! algo salió mal:
+                    OOPS! algo salió mal:
                     <?php foreach ($errores as $error): ?>
                     <li><?php echo $error; ?></li>
                     <?php endforeach; ?>
@@ -75,17 +75,19 @@ if ($_POST) {
 
                 </ul>
             </div>
-            <h1 class="forms">Bienvenidos a</h1>
+            <h1 class="forms">Bienvenido a</h1>
             <img class="logo" src="img/asalogo.png" alt="">
 
             <form class="login" action="login.php" method="post">
                 <h1 class="forms">Ingresar</h1>
                 <div class="formLog" id="email">
+                    <p class="info">Ingresá tu correo electrónico</p>
                     <i class="fas fa-at"></i>
                     <input type="email" name="email" placeholder="ejemplo@correo.com" value="<?= $email; ?>" autofocus required>
                 </div>
 
                 <div class="formLog" id="password">
+                    <p class="info">Ingresá tu contraseña</p>
                     <i class="fas fa-key"></i>
                     <input type="password" name="password" placeholder="Ingresá tu contraseña" autofocus required>
                 </div>

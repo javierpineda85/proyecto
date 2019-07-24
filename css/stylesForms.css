@@ -50,8 +50,8 @@ h1.forms {
     font-size: 40px;
     background-color: #333333;
     width: auto;
-    margin: 6px;
-    padding: 6px;
+    margin: 3px;
+    padding: 5px;
 }
 
 .container .errores ul {
@@ -76,6 +76,11 @@ div.formLog {
 
 p.info {
     display: none;
+    width: 98%;
+    color: white;
+    background-color: #E27F41;
+    margin-left: 3px;
+    padding-left: 20px;
 }
 
 .formLog:focus-within .info {
