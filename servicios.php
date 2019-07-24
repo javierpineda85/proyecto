@@ -41,14 +41,14 @@
         <h2 class="serv-texto1">NUESTROS SERVICIOS</h2>
         <h2 class="serv-texto2">Abarcamos toda la gama de servicios, desde la planificación del proyecto a su construcción final. Contando también con el diseño de interiores y paisajes</h2>
     </div>
-    <div class="containerserv">
-        <div class="servicios">
+    <div class="containerserv bg-light p-5">
+        <div class="servicios m-3">
             <h3>ARQUITECTURA</h3>
             <h4>Del borrador a la construcción final.</h4>
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
        </div>
-       <div class="interior">
-            <h3>DISEÑO INTERIOR</h3>
+       <div class="interior m-3">
+            <h3 class="bg-dark">DISEÑO INTERIOR</h3>
             <h4>Trabajando en el espacio.</h4>
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
         </div>
