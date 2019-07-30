@@ -107,20 +107,21 @@ if ($existeMail == false) {
 
     <section class="registro">
         <div class="container" id="registro">
-            <div class="errores">
-                <ul>
-                    <?php if (isset($errores)): ?>
-                    OOPS! algo salió mal:
-                    <?php foreach ($errores as $error): ?>
-                    <li><?php echo $error; ?></li>
-                    <?php endforeach; ?>
-                    Por favor verificá los datos y volvé a intentarlo.
-                    <?php endif; ?>
 
-                </ul>
-            </div>
             <form class="registro" action="registro.php" method="post" enctype="multipart/form-data">
                 <h1 class="forms"> Registrate</h1>
+                <div class="errores">
+                    <ul>
+                        <?php if (isset($errores)): ?>
+                        OOPS! algo salió mal:
+                        <?php foreach ($errores as $error): ?>
+                        <li><?php echo $error; ?></li>
+                        <?php endforeach; ?>
+                        Por favor verificá los datos y volvé a intentarlo.
+                        <?php endif; ?>
+
+                    </ul>
+                </div>
                 <div class="formLog" id="name">
                     <p class="info">Colocá tu nombre</p>
                     <i class="fas fa-user"></i>
