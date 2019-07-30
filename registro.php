@@ -137,7 +137,7 @@ if ($existeMail == false) {
                     <input type="text" name="userName" placeholder=" Elija un nombre de Usuario " value="<?= $userName; ?>" autofocus required>
                 </div>
                 <div class="formLog" id="fechaDeNac">
-                    <p class="info">Ingresa tu fecha de nacimiento</p>
+                    <p class="info">Ingresá tu fecha de nacimiento</p>
                     <i class="fas fa-birthday-cake"></i>
                     <input type="date" name="date" value="<?= $date; ?>" autofocus required>
                 </div>
@@ -157,16 +157,16 @@ if ($existeMail == false) {
                 </div>
 
                 <div class="formLog" id="email">
-                    <p class="info">Ingresá tu correo electronico</p>
+                    <p class="info">Ingresá tu correo electrónico</p>
                     <i class="fas fa-at"></i>
                     <input type="email" name="email" placeholder="ejemplo@correo.com" value="<?= $email; ?>" autofocus required>
                 </div>
 
 
                 <div class="formLog" id="password">
-                    <p class="info">Tu contraseña debe contener: mayúsculas, minúsculas y numeros</p>
+                    <p class="info">Tu contraseña debe contener: mayúsculas, minúsculas y números</p>
                     <i class="fas fa-key"></i>
-                    <input type="password" name="password" placeholder="Ingresa tu contraseña" autofocus required>
+                    <input type="password" name="password" placeholder="Ingresá tu contraseña" autofocus required>
                 </div>
                 <div class="formLog" id="password">
                     <p class="info">Tu contraseña debe contener: mayúsculas, minúsculas y numeros</p>
@@ -176,8 +176,8 @@ if ($existeMail == false) {
 
                 <div class="formLog" id="phone">
                     <p class="info"> Recordá colocar tu número sin el 0 y sin en 15</p>
-                    <i class="fas fa-phone-alt"></i>
-                    <input type="tel" name="phone" pattern="[0-9]{10}" placeholder="Código de área sin el 0, sin el 15" value="<?= $phone; ?>" autofocus required>
+                    <i class="fas fa-phone"></i>
+                    <input type="tel" name="phone" pattern="[0-9]{10}" placeholder="Ingresa tu teléfono" value="<?= $phone; ?>" autofocus required>
                 </div>
 
                 <div class="formLog" id="avatar">
