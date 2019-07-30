@@ -21,7 +21,7 @@
 				<div class="footer-columna">
 					<h3 class="font-weight-bolder">Suscríbete</h3>
 					<input type="email" placeholder="Escriba su Correo">
-					<input type="submit" value=" Suscribirse" class="boton-orange">
+					<input type="submit" value=" Suscribirse" class="boton-orange w-100">
 			  </div>
 			<div class="footer-columna">
 					<h3 class="font-weight-bolder">Contactos</h3>
@@ -31,7 +31,7 @@
 				</div>
 				<div class="footer-columna">
 					<h3 class="font-weight-bolder">Nosotros</h3>
-					<p class="nosotros font-weight-light text-left">La Asociación Solidaria de Arquitectos se está gestando como una Asociación Civil sin fines de lucro, en donde los profesionales puedan compartir de forma genuina, la búsqueda de objetivos comunes en un espacio colaborativo y cooperativo.</p>
+					<p class="nosotros font-weight-light text-left" style="font-size:small">La Asociación Solidaria de Arquitectos se está gestando como una Asociación Civil sin fines de lucro, en donde los profesionales puedan compartir de forma genuina, la búsqueda de objetivos comunes en un espacio colaborativo</p>
 				</div>
 			</div>
 		</div>
