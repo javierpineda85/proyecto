@@ -12,6 +12,8 @@ $usuarioLogueado = traerUsuarioLogueado();
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--NO CACHEAR-->
+    <meta http-equiv="pragma" content="no-cache" />
     <title>Header</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -27,6 +29,26 @@ $usuarioLogueado = traerUsuarioLogueado();
 </head>
 
 <body>
+  <div class="row bg-orange w-100 col-12 barra-sup montserrat m-0">
+		<div class="d-flex ml-auto">
+      <!--/* Capacitaciones */ -->
+      <div class="nav-item">
+          <a class="nav-link" href="capacitacion.php"><i class="fa-shopping-cart-lg">  CAPACITACIONES</i></a>
+      </div>
+
+      <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search">
+          <button class="btn my-2 my-sm-0" type="submit">
+              <!--<img src="img/header/asa-finder.png" alt="asa-finder" width="20px">--><i class="fas fa-search fa-lg"></i></button>
+      </form>
+
+        <div class="ml-auto p-2 bd-highlight"><a href="#"><i class="fab fa-facebook-f"></i></a></div>
+        <div class="ml-auto p-2 bd-highlight"><a href="#"><i class="fab fa-twitter"></i></a></div>
+        <div class="ml-auto p-2 bd-highlight"><a href="#"><i class="fab fa-instagram"></i></a></div>
+        <div class="ml-auto p-2 bd-highlight"><a href="#"><i class="fab fa-skype"></i></a></div>
+
+		</div>
+	</div>
     <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom-orange">
         <a class="navbar-brand" href="#"><img src="img/asalogo.png" alt="asa" width="100px"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -64,11 +86,8 @@ $usuarioLogueado = traerUsuarioLogueado();
                 <li class="nav-item">
                     <a class="nav-link" href="preguntasFrecuentes.php">F.A.Qs</a>
                 </li>
-                <!--/* Capacitaciones */ -->
-                <li class="nav-item">
-                    <a class="nav-link" href="capacitacion.php"><i class="fas fa-shopping-cart fa-lg"></i></a>
-                </li>
-                
+
+
 <!-- aqui si el usuario esta loguado va a aparecer mi perfil y cerrar sesion -->
                 <?php if ($usuarioLogueado != null) : ?>
                 <li class="nav-item dropdown">
@@ -87,11 +106,7 @@ $usuarioLogueado = traerUsuarioLogueado();
                 <!-- aqui cierra el if de usuario logueado -->
 
             </ul>
-            <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search">
-                <button class="btn my-2 my-sm-0" type="submit">
-                    <!--<img src="img/header/asa-finder.png" alt="asa-finder" width="20px">--><i class="fas fa-search fa-lg"></i></button>
-            </form>
+
         </div>
     </nav>
 
