@@ -45,6 +45,28 @@ $usuarioLogueado = traerUsuarioLogueado();
       <?php include_once ("slider.php") ?>
   </div>
 
+    
+ <!--_____________________SECCIONES NAVEGABLES-->   
+<section class="capacitacion">
+    <h2>CAPACITACIONES</h2>
+    <spam>Porque nos interesa tu futuro, y queremos ayudarte a crecer. <br> Conocé los cursos que tenemos para ofrecerte</spam>
+</section>
+
+<section class="muni">
+    <h2>MUNICIPALIDADES</h2>
+    <spam>Accedé a la guía completa de trámites por Municipalidades. <br> Además encontrarás un organigrama para ayudarte a completasr los trámites</spam>
+</section>
+    
+<section class="proyecyo">
+    <h2>PROYECTOS</h2>
+    <spam>Estamos en constante movimiento. Conocé mas sobre nuestros proyectos. <br> También podés sumarte a nuestros proyectos</spam>
+</section>
+    
+<section class="nosotros">
+    <h2>NOSOTROS</h2>
+    <spam>Somos una organización sin fines de lucro. Conocémos un poco mas.</spam>
+</section>
+    
 <!--_____________________SECCIONES ESTATICAS-->
 <section class="d-flex align-content-center flex-wrap container-fluid w-100 text-white bg-black p-3 m-auto align-items-center">
   <h2 class="m-auto"><span class="color-orange">2x1</span> en cursos!!!</h2>
