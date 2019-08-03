@@ -3,9 +3,17 @@
 /* COLORES
 Naranja: #E27F41 / Amarillo: #EAB22A
 Gris Oscuro: #333333 / Gris Clarito: #F7F7F7  */
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
 body {
   font-family: 'Montserrat', sans-serif;
   letter-spacing: 1px;
+  max-width: 1440px;
 }
 
 .montserrat {
