@@ -39,9 +39,9 @@
     </div>
     <div class="textotitulo">
         <h2 class="serv-texto1">NUESTROS SERVICIOS</h2>
-        <h2 class="serv-texto2">Abarcamos toda la gama de servicios, desde la planificación del proyecto a su construcción final. Contando también con el diseño de interiores y paisajes</h2>
+        <h2 class="serv-texto2 max-width">Abarcamos toda la gama de servicios, desde la planificación del proyecto a su construcción final. Contando también con el diseño de interiores y paisajes</h2>
     </div>
-    <div class="containerserv bg-light p-5">
+    <div class="containerserv bg-light p-5 max-width">
         <div class="servicios m-3">
             <h3>ARQUITECTURA</h3>
             <h4>Del borrador a la construcción final.</h4>
