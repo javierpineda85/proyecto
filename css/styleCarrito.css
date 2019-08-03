@@ -12,6 +12,16 @@ section.ppal {
 
 
 }
+h1.ppal__title {
+
+    text-align: center;
+    font-size: 30px;
+    width: 100%;
+    background-color: black;
+    margin: 15px 0px;
+    padding: 5px;
+}
+
 
 /* CONTENEDOR PADRE DE PRODUCTOS*/
 
@@ -25,13 +35,21 @@ div.main__prod {
 }
 
 h2.prod__title {
-
+    display: inline;
     font-size: 1.5em;
     /* font-weight: 800; */
     color: white;
-    padding: 5px;
+    margin: 15px 0px;
+    padding: 15px 0px;
     background-color: #333333;
 
+}
+
+h2.ppal__title#blanco{
+    color: white;
+}
+h2.ppal__title#naranja{
+    color: #E27F41;
 }
 
 /*CONTENEDOR HIJO DE PRODUCTOS*/

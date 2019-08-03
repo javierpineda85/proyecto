@@ -37,7 +37,7 @@ function validarRegistracion($datos){
 
     }
     if (filter_var($_POST["email"], FILTER_VALIDATE_EMAIL)==false){
-    $errores=["error4"=>"Formato de email incorrecrto"];
+    $errores=["error4"=>"Formato de email incorrecto"];
 
 
     }

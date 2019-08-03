@@ -55,10 +55,10 @@ h1.forms {
 }
 
 .container .errores ul {
-    width: 320px;
+    width: 97%;
     justify-content: center;
-    margin: 5px 5px 5px 10px;
-    /* padding: 5px; */
+    margin: 5px;
+/*     padding: 5px; */
     color: white;
     background-color: #E27F41;
 }

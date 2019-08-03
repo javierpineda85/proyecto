@@ -9,7 +9,6 @@
     <!-- HOJAS DE STILOS-->
 
     <link rel="stylesheet" href="css/styleCarrito.css">
-    <!--    <link rel="stylesheet" href="css/master.css">-->
 
     <!--FUENTES E ICONOS-->
 
@@ -25,8 +24,12 @@
         <?php include_once ("header.php") ?>
     </header>
     <section class="ppal">
+
+<!--        <h1 class="ppal__title">PRODUCTOS</h1>-->
+
         <div class="main__prod">
-            <h2 class="prod__title">PRODUCTOS</h2>
+            <h2 class="prod__title" id="blanco">SU CARRITO DE COMPRAS</h2>
+            <h2 class="prod__title" id="naranja"> DE COMPRAS</h2>
             <div class="prod__1">
                 <article class="prod__1">
 

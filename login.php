@@ -63,46 +63,48 @@ if ($_POST) {
 
 
         <div class="container">
-            <div class="errores">
-                <ul>
-                    <?php if (isset($errores)): ?>
-                    OOPS! algo salió mal:
-                    <?php foreach ($errores as $error): ?>
-                    <li><?php echo $error; ?></li>
-                    <?php endforeach; ?>
-                    Por favor verificá los datos y volvé a intentarlo.
-                    <?php endif; ?>
 
-                </ul>
-            </div>
             <h1 class="forms">Bienvenido a</h1>
             <img class="logo" src="img/asalogo.png" alt="">
 
             <form class="login" action="login.php" method="post">
                 <h1 class="forms">Ingresar</h1>
-                <div class="formLog" id="email">
-                    <p class="info">Ingresá tu correo electrónico</p>
-                    <i class="fas fa-at"></i>
-                    <input type="email" name="email" placeholder="ejemplo@correo.com" value="<?= $email; ?>" autofocus required>
-                </div>
+                
+                    <div class="errores">
+                        <ul>
+                            <?php if (isset($errores)): ?>
+                            OOPS! algo salió mal:
+                            <?php foreach ($errores as $error): ?>
+                            <li><?php echo $error; ?></li>
+                            <?php endforeach; ?>
+                            Por favor verificá los datos y volvé a intentarlo.
+                            <?php endif; ?>
 
-                <div class="formLog" id="password">
-                    <p class="info">Ingresá tu contraseña</p>
-                    <i class="fas fa-key"></i>
-                    <input type="password" name="password" placeholder="Ingresá tu contraseña" autofocus required>
-                </div>
+                        </ul>
+                    </div>
+                    <div class="formLog" id="email">
+                        <p class="info">Ingresá tu correo electrónico</p>
+                        <i class="fas fa-at"></i>
+                        <input type="email" name="email" placeholder="ejemplo@correo.com" value="<?= $email; ?>" autofocus required>
+                    </div>
 
-                <button type="submit" name="button">Entrar</button>
+                    <div class="formLog" id="password">
+                        <p class="info">Ingresá tu contraseña</p>
+                        <i class="fas fa-key"></i>
+                        <input type="password" name="password" placeholder="Ingresá tu contraseña" autofocus required>
+                    </div>
 
-                <div class="formLog" id="recordar">
+                    <button type="submit" name="button">Entrar</button>
 
-                    <input type="checkbox" class="chkbx"> Recuerdame. <br>
+                    <div class="formLog" id="recordar">
 
-                    <p class="formLog">Al ingresar aceptas nuestras políticas de uso.</p><br>
+                        <input type="checkbox" class="chkbx"> Recuerdame. <br>
 
-                    <p class="formLog">Si todavía no estás registrado <a href="registro.php" class="formLog">presiona aquí</a></p>
+                        <p class="formLog">Al ingresar aceptas nuestras políticas de uso.</p><br>
 
-                </div>
+                        <p class="formLog">Si todavía no estás registrado <a href="registro.php" class="formLog">presiona aquí</a></p>
+
+                    </div>
 
             </form>
 
