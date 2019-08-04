@@ -24,8 +24,8 @@
         <?php include_once ("header.php") ?>
     </div>
 
-    <section class="perfil">
-        <div class="container" id="perfil">
+    <section class="perfil m-0 py-5">
+        <div class="container bg-white p-4" id="perfil">
             <form class="perfil" action="perfil.php">
                 <h1 class="forms"> Perfil de usuario</h1>
                 <div class="formLog" id="avatar">

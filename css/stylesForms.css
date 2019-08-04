@@ -10,6 +10,10 @@ body {
     justify-content: center;
 }
 
+
+.bg-ss{background-image: url("../img/serviciosimg.jpg");}
+
+
 section.perfil,
 section.login,
 section.registro {
@@ -17,7 +21,7 @@ section.registro {
     width: 100%;
     padding: 10px;
     margin: 10px 0px 10px 0px;
-    background: #fff;
+    background-image: url("../img/black-background.jpg");
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;

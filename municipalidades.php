@@ -25,7 +25,9 @@
     </div>
 
     <div class="muni">
-        <h1>MUNICIPALIDADES</h1>
+      <div class="banner-standard bg-muni">
+          <h2 class="banner-texto-standard"><span>MUNICIPALIDADES</span></h2>
+      </div>
         <div class="secciones max-width">
 
             <section class="seccionesmuni">
