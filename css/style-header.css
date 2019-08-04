@@ -28,7 +28,6 @@ body {
 .bg-image-white{
 
     width: 100%;
-    padding: 10px;
     background-image: url("../img/white-abstract-background.jpg");
     background-size: cover;
     background-repeat: no-repeat;
