@@ -16,7 +16,15 @@ body {
 }
 .max-width{max-width: 1440px;}
 
-.max-width{max-width: 1440px;}
+.bg-image{
+
+    width: 100%;
+    padding: 10px;
+    background-image: url("../img/black-background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
 
 .montserrat {
   font-family: 'Montserrat', sans-serif;
