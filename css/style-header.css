@@ -37,6 +37,9 @@ a.nav-link, .dropdown-menu a {
   letter-spacing: 1px;
   font-size: 13px;
 }
+
+
+
 .degrade{
   background: rgba(209,209,209,1);
   background: -moz-linear-gradient(top, rgba(209,209,209,1) 0%, rgba(254,254,254,1) 64%, rgba(209,209,209,1) 64%, rgba(254,254,254,1) 100%);
