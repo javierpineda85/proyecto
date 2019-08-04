@@ -30,7 +30,7 @@
     </div>
 
 
-    <div class="containerqsomos">
+    <div class="containerqsomos bg-image-white">
 
       <div class="banner-standard bg-quienes">
           <h2 class="banner-texto-standard"><span>ASOCIACION SOLIDARIA DE ARQUITECTOS</span></h2>
