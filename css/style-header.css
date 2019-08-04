@@ -13,8 +13,9 @@ Gris Oscuro: #333333 / Gris Clarito: #F7F7F7  */
 body {
   font-family: 'Montserrat', sans-serif;
   letter-spacing: 1px;
-  max-width: 1440px;
 }
+
+.max-width{max-width: 1440px;}
 
 .montserrat {
   font-family: 'Montserrat', sans-serif;
