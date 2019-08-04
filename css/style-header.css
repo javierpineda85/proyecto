@@ -4,7 +4,7 @@
 Naranja: #E27F41 / Amarillo: #EAB22A
 Gris Oscuro: #333333 / Gris Clarito: #F7F7F7  */
 * {
-	margin: 0;
+	margin: 0 auto;
 	padding: 0;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
@@ -13,8 +13,9 @@ Gris Oscuro: #333333 / Gris Clarito: #F7F7F7  */
 body {
   font-family: 'Montserrat', sans-serif;
   letter-spacing: 1px;
-  max-width: 1440px;
+
 }
+.max-width{max-width: 1440px;}
 
 .montserrat {
   font-family: 'Montserrat', sans-serif;
@@ -27,6 +28,8 @@ a {
 a:hover {
   color: #E27F41 !important
 }
+a.nav-link{ color: white}
+a.nav-link:hover{ color: white;}
 
 a.nav-link, .dropdown-menu a {
   text-transform: uppercase;
@@ -112,6 +115,32 @@ a.nav-link, .dropdown-menu a {
 .bg-black{ background: #000 !important;}
 .color-orange{ color: #E27F41 !important;}
 .bg-orange{ background: #E27F41;}
+
+.banner-standard {
+  background-attachment: fixed;
+  text-align: center;
+  font-size: 30px;
+  padding: 20px;
+  border-bottom: 2px solid #E27F41;
+  font-family: "Montserrat", sans-serif;
+  font-style: italic;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+  margin-top: 0px;
+	margin-bottom: 50px;
+}
+
+.banner-texto-standard{
+  background: rgba(0,0,0,0.5);
+  padding: 30px 20px;
+  color: white;
+  align-items: center;
+  position: relative;
+  top: 40%;
+  width: 40%;
+}
 
 /*_____________________MOBILE LAST*/
 /* Medium Devices, Desktops */
