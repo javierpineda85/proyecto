@@ -9,20 +9,7 @@
   margin-bottom: 10px;
 
 }
-
-.textocontacto .form-texto{
-  background-image: url("../img/contactoimagen.jpg");
-  text-align: center;
-  font-size: 30px;
-  padding: 20px;
-  border-bottom: 2px solid #E27F41;
-  font-family: "Montserrat", sans-serif;
-  font-style: italic;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-
-}
+.bg-contacto{background-image: url("../img/contactoimagen.jpg");}
 
 .contenedorcontacto .form .form-header .form-titulo{
   font-weight: normal;
@@ -151,7 +138,7 @@
 }
 
 .contenedormayor{
-  margin: 30px;
+  /*margin: 30px;*/
 }
 
 .contenedorcontacto .form {
