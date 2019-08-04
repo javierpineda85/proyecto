@@ -14,23 +14,7 @@
 
     <link href="https://fonts.googleapis.com/css?family=Lato%7CMontserrat" rel="stylesheet">
     <script src="https://unpkg.com/ionicons@4.5.5/dist/ionicons.js"></script>
-    <style type="text/css" media="screen">
-        A:link {
-            color: black;
-            text-decoration: none
-        }
 
-        A:hover {
-            color: black;
-            text-decoration: none
-        }
-
-        A:visited {
-            color: black;
-            text-decoration: none
-        }
-
-    </style>
 </head>
 
 <body>
@@ -38,7 +22,9 @@
         <?php include_once ("header.php") ?>
     </div>
     <div class="textotitulo">
-        <h2 class="serv-texto1">NUESTROS SERVICIOS</h2>
+      <div class="banner-standard bg-ss">
+          <h2 class="banner-texto-standard"><span>NUESTROS SERVICIOS</span></h2>
+      </div>
         <h2 class="serv-texto2 max-width">Abarcamos toda la gama de servicios, desde la planificación del proyecto a su construcción final. Contando también con el diseño de interiores y paisajes</h2>
     </div>
     <div class="containerserv bg-light p-5 max-width">
