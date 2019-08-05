@@ -30,10 +30,18 @@
     </div>
 
 
+<<<<<<< HEAD
     <div class="containerqsomos">
         <section class="titulo">
             <h1> Asociación Solidaria de Arquitectos </h1>
         </section>
+=======
+    <div class="containerqsomos bg-image-white">
+
+      <div class="banner-standard bg-quienes">
+          <h2 class="banner-texto-standard"><span>ASOCIACION SOLIDARIA DE ARQUITECTOS</span></h2>
+      </div>
+>>>>>>> 77ea5550765e9804b93388865b48d7d0387519ac
         <section class="subtitulo">
             <h3 class="naranja">Construimos la casa, tú la conviertes en un hogar.</h3>
         </section>

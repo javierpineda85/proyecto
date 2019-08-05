@@ -5,10 +5,8 @@
 }
 
 .containerqsomos{
-    padding: 3px;
     flex-wrap: wrap;
     text-align: center;
-    font-family: "Montserrat", sans-serif;
 }
 
 section.ppal {
@@ -36,6 +34,7 @@ section.comite {
 .titulo h1{
   font-size: 30px;
 }
+<<<<<<< HEAD
 .naranja{
   font-size: 35px;
   background-color:#E27F41;
@@ -50,6 +49,10 @@ section.comite {
   background-color:black;
   background-size: 10px;
   color: white;
+=======
+
+.bg-quienes{    background-image: url(../img/asa-04.jpg);
+>>>>>>> 77ea5550765e9804b93388865b48d7d0387519ac
 }
 section.titulo {
     text-transform: uppercase;
