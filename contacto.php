@@ -9,28 +9,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <!-- Personal CSS -->
-    <link rel="stylesheet" href="css/stylecontacto.css">
+
 
     <link href="https://fonts.googleapis.com/css?family=Lato%7CMontserrat" rel="stylesheet">
     <script src="https://unpkg.com/ionicons@4.5.5/dist/ionicons.js"></script>
-    <style type="text/css" media="screen">
-        A:link {
-            color: black;
-            text-decoration: none
-        }
 
-        A:hover {
-            color: black;
-            text-decoration: none
-        }
-
-        A:visited {
-            color: black;
-            text-decoration: none
-        }
-
-    </style>
+    <!-- Personal CSS -->
+    <link rel="stylesheet" href="css/stylecontacto.css">
+    <link rel="stylesheet" href="css/style-header.css">
 </head>
 
 <body>
@@ -38,11 +24,11 @@
         <?php include_once ("header.php") ?>
     </div>
 <div class="contenedormayor">
-    <div class="textocontacto">
-        <h2 class="form-texto"><span>Si tienes preguntas, no dudes en contactarnos.</span></h2>
+    <div class="banner-standard bg-contacto">
+        <h2 class="banner-texto-standard"><span>Si tienes preguntas, no dudes en contactarnos.</span></h2>
     </div>
-    <div class="containergral">
-        <div class="contenedor-iconos">
+    <div class="containergral max-width">
+        <div class="contenedor-iconos bg-light py-4">
             <ion-icon name="pin"></ion-icon>
             <p class="datoscont">DUARDO Arquitectos SL / P. de la Catellana 79, Madrid 28046.</p>
             <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9476.244620415422!2d-68.85932236713496!3d-32.888690753885164!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967e09e08865d9f7%3A0x6a62c1f49ef33549!2sDigital+House+-+Mendoza!5e0!3m2!1ses!2sar!4v1561680038177!5m2!1ses!2sar" width="320" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>

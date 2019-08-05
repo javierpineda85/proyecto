@@ -26,7 +26,7 @@
 
     <div class="muni">
         <h1>MUNICIPALIDADES</h1>
-        <div class="secciones">
+        <div class="secciones max-width">
 
             <section class="seccionesmuni">
                 <button class="boton" type="submit" name="capital">
