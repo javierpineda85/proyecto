@@ -25,8 +25,10 @@
     </div>
 
     <div class="muni">
-        <h1>MUNICIPALIDADES</h1>
-        <div class="secciones max-width">
+      <div class="banner-standard bg-muni mb-0">
+          <h2 class="banner-texto-standard"><span>MUNICIPALIDADES</span></h2>
+      </div>
+        <div class="secciones max-width bg-image py-5">
 
             <section class="seccionesmuni">
                 <button class="boton" type="submit" name="capital">

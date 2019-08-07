@@ -59,17 +59,17 @@ if ($_POST) {
         <?php include_once ("header.php") ?>
     </div>
 
-    <section class="login">
+    <section class="login m-0 py-5">
 
 
-        <div class="container">
+        <div class="container bg-white p-4">
 
             <h1 class="forms">Bienvenido a</h1>
             <img class="logo" src="img/asalogo.png" alt="">
 
             <form class="login" action="login.php" method="post">
                 <h1 class="forms">Ingresar</h1>
-                
+
                     <div class="errores">
                         <ul>
                             <?php if (isset($errores)): ?>

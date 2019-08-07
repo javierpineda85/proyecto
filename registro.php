@@ -49,11 +49,11 @@ if($_POST){
 
 
 $existeMail = existeElEmail($_POST["email"]);
-    
+
 if ($existeMail == false) {
 
   $errores=validarRegistracion($_POST);
-    
+
   if(count($errores)== 0){
    $usuario=armarUsuario($_POST);
    //guarda usuario
@@ -63,7 +63,7 @@ if ($existeMail == false) {
    // loguear usuario
    loguear($_POST["email"]);
 
-  
+
    // header("location:inicio.php");exit;
    header("location:inicio-axel.php");exit;
   }
@@ -105,10 +105,10 @@ if ($existeMail == false) {
         <?php include_once ("header.php") ?>
     </div>
 
-    <section class="registro">
+    <section class="registro m-0 py-5">
         <div class="container" id="registro">
 
-            <form class="registro" action="registro.php" method="post" enctype="multipart/form-data">
+            <form class="registro bg-white p-4" action="registro.php" method="post" enctype="multipart/form-data">
                 <h1 class="forms"> Registrate</h1>
                 <div class="errores">
                     <ul>
