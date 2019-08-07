@@ -47,8 +47,8 @@ a {
 a:hover {
   color: #E27F41 !important
 }
-a.nav-link{ color: white}
-a.nav-link:hover{ color: white;}
+a.nav-link{ color: #333 !important}
+a.nav-link:hover{ color: gray;}
 
 a.nav-link, .dropdown-menu a {
   text-transform: uppercase;
@@ -56,9 +56,6 @@ a.nav-link, .dropdown-menu a {
   letter-spacing: 1px;
   font-size: 13px;
 }
-
-
-
 .degrade{
   background: rgba(209,209,209,1);
   background: -moz-linear-gradient(top, rgba(209,209,209,1) 0%, rgba(254,254,254,1) 64%, rgba(209,209,209,1) 64%, rgba(254,254,254,1) 100%);
@@ -137,32 +134,6 @@ a.nav-link, .dropdown-menu a {
 .bg-black{ background: #000 !important;}
 .color-orange{ color: #E27F41 !important;}
 .bg-orange{ background: #E27F41;}
-
-.banner-standard {
-  background-attachment: fixed;
-  text-align: center;
-  font-size: 30px;
-  padding: 20px;
-  border-bottom: 2px solid #E27F41;
-  font-family: "Montserrat", sans-serif;
-  font-style: italic;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  height: 500px;
-  margin-top: 0px;
-	margin-bottom: 50px;
-}
-
-.banner-texto-standard{
-  background: rgba(0,0,0,0.5);
-  padding: 30px 20px;
-  color: white;
-  align-items: center;
-  position: relative;
-  top: 40%;
-  width: 40%;
-}
 
 /*_____________________MOBILE LAST*/
 /* Medium Devices, Desktops */

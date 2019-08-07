@@ -1,0 +1,103 @@
+/*MENU GRAL*/
+div.menu,
+header{
+    width: 100%;
+    position: absolute;
+    top: 5px;
+    z-index: 0;
+
+}
+
+/*FOOTER GRAL*/
+body footer {
+    display: block;
+    position: fixed;
+    bottom: 0px;
+    z-index: -10;
+}
+
+
+/*--- FORMULARIOS DE USUARIOS ---*/
+
+/**/
+/*CONTENIDO*/
+section.registro,
+section.login,
+section.perfil {
+    display: flex;
+    position: relative;
+    top: 150px;
+    z-index: 10;
+
+
+}
+
+
+
+
+
+/* --- CAPACITACIONES --- */
+
+
+/* CONTENIDO*/
+body.capacitacion div.container#capacitacion {
+
+    position: relative;
+    top: 170px;
+    background: #fff;
+    margin-bottom: 600px;
+    z-index: 10;
+}
+
+
+
+
+
+
+
+
+
+/* --- PREGUNTAS FRECUENTES --- */
+/*CONTENIDO*/
+body.preFrecuentes div.container#preFrecuentes {
+
+    position: relative;
+    top: 170px;
+    background: #fff;
+    margin-bottom: 600px;
+    z-index: 10;
+}
+
+
+
+
+
+
+/* --- QUIENES SOMOS --- */
+
+/*CONTENIDO*/
+body.qsomos div.container {
+
+    position: relative;
+    top: 170px;
+    background: #fff;
+    margin-bottom: 600px;
+    z-index: 10;
+}
+
+
+
+
+
+
+
+
+/*--- CARRITO ---*/
+/*CONTENIDO*/
+section.ppal{
+  position: relative;
+  top: 170px;
+  background: #fff;
+  margin-bottom: 600px;
+  z-index: 10;
+}

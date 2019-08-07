@@ -187,7 +187,7 @@ if ($existeMail == false) {
                     <input class="file" type="file" name="avatar" value="<?= $avatar; ?>">
                 </div>
 
-                <button class="form" type="submit" name="button">Registrarme</button>
+                <button type="submit" name="button">Registrarme</button>
                 <div class="formLog" id="recordar">
 
                     <p class="formLog">Al ingresar aceptas nuestras políticas de uso.</p><br>

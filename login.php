@@ -94,7 +94,7 @@ if ($_POST) {
                         <input type="password" name="password" placeholder="Ingresá tu contraseña" autofocus required>
                     </div>
 
-                    <button class="form" type="submit" name="button">Entrar</button>
+                    <button type="submit" name="button">Entrar</button>
 
                     <div class="formLog" id="recordar">
 

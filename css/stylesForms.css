@@ -43,11 +43,9 @@ img.logo {
     margin: 0 auto;
 }
 
-/*
 form {
     padding: 15px;
 }
-*/
 
 h1.forms {
 
@@ -135,7 +133,7 @@ select.formLog {
     padding: 5px;
 }
 
-button.form {
+button {
     border: none;
     width: 100%;
     color: white;
