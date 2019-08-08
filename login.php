@@ -5,7 +5,7 @@ require_once("funciones.php");
 
 if (estaLogueado()) {
 
-  header ("location:inicio-axel.php");exit;
+  header ("location:inicio.php");exit;
 }
 
 if ($_POST) {
@@ -14,7 +14,7 @@ if ($_POST) {
 
   if (count($errores) == 0) {
     loguear($_POST["email"]);
-    header("location:inicio-axel.php");exit;
+    header("location:inicio.php");exit;
     // header("location:login.php"); exit;
 
   } else {

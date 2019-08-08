@@ -29,7 +29,7 @@ require_once("funciones.php");
 
 if(estaLogueado()){
   // header("location:inicio.php");exit;
-  header("location:inicio-axel.php");exit;
+  header("location:inicio.php");exit;
 }
 
 if($_POST){
@@ -65,7 +65,7 @@ if ($existeMail == false) {
 
 
    // header("location:inicio.php");exit;
-   header("location:inicio-axel.php");exit;
+   header("location:inicio.php");exit;
   }
 } else {
        $errores["email"] = "El mail que ingresaste ya está registrado";
@@ -76,7 +76,7 @@ if ($existeMail == false) {
 
 }
 
- ?>
+qui ?>
 
 <!DOCTYPE html>
 <html lang="es" dir="ltr">
@@ -105,10 +105,10 @@ if ($existeMail == false) {
         <?php include_once ("header.php") ?>
     </div>
 
-    <section class="registro m-0 py-5">
+    <section class="registro">
         <div class="container" id="registro">
 
-            <form class="registro bg-white p-4" action="registro.php" method="post" enctype="multipart/form-data">
+            <form class="registro" action="registro.php" method="post" enctype="multipart/form-data">
                 <h1 class="forms"> Registrate</h1>
                 <div class="errores">
                     <ul>
@@ -187,7 +187,7 @@ if ($existeMail == false) {
                     <input class="file" type="file" name="avatar" value="<?= $avatar; ?>">
                 </div>
 
-                <button class="form" type="submit" name="button">Registrarme</button>
+                <button type="submit" name="button">Registrarme</button>
                 <div class="formLog" id="recordar">
 
                     <p class="formLog">Al ingresar aceptas nuestras políticas de uso.</p><br>

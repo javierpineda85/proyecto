@@ -2,5 +2,5 @@
 session_start();
 session_unset();
 session_destroy();
-  header("location:inicio-axel.php");exit;
+  header("location:inicio.php");exit;
  ?>
