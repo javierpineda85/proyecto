@@ -49,25 +49,57 @@ $usuarioLogueado = traerUsuarioLogueado();
     <!--_____________________SECCIONES NAVEGABLES-->
 
     <div class="inicio">
-        <section class="capacitacion">
-            <h2>CAPACITACIONES</h2>
-            <spam>Porque nos interesa tu futuro, y queremos ayudarte a crecer. <br> Conocé los cursos que tenemos para ofrecerte</spam>
-        </section>
 
-        <section class="muni">
-            <h2>MUNICIPALIDADES</h2>
-            <spam>Accedé a la guía completa de trámites por Municipalidades. <br> Además encontrarás un organigrama para ayudarte a completasr los trámites</spam>
-        </section>
+      <div class="container-fluid jumbotron">
+	<div class="row">
+		<div class="col-md-6 capacitacion">
+		<h2>CAPACITACIONES</h2>
+			<p>
+				Porque nos interesa tu futuro, y queremos ayudarte a crecer. <br> Conocé los cursos que tenemos para ofrecerte
+			</p>
+			<p>
+				<a class="btn" href="#">Ver mas »</a>
+			</p>
+		</div>
 
-        <section class="proyecto">
-            <h2>PROYECTOS</h2>
-            <spam>Estamos en constante movimiento. Conocé mas sobre nuestros proyectos. <br> También podés sumarte a nuestros proyectos</spam>
-        </section>
 
-        <section class="nosotros">
-            <h2>NOSOTROS</h2>
-            <spam>Somos una organización sin fines de lucro. Conocémos un poco mas.</spam>
-        </section>
+		<div class="col-md-6 muni">
+			<h2>MUNICIPALIDADES</h2>
+			<p>
+			Accedé a la guía completa de trámites por Municipalidades. <br> Además encontrarás un organigrama para ayudarte a completasr los trámites
+			</p>
+			<p>
+				<a class="btn" href="#">Ver mas »</a>
+			</p>
+		</div>
+	<div class="col-md-6 proyectos">
+    <h2>PROYECTOS</h2>
+			<p>
+				Estamos en constante movimiento. Conocé mas sobre nuestros proyectos. <br> También podés sumarte a nuestros proyectos.
+			</p>
+			<p>
+				<a class="btn" href="#">Ver mas »</a>
+			</p>
+		</div>
+
+
+		<div class="col-md-6 nosotros">
+			<h2>NOSOTROS</h2>
+			<p>
+			  Somos una organización sin fines de lucro. Conocémos un poco mas.
+			</p>
+			<p>
+				<a class="btn" href="#">Ver mas »</a>
+			</p>
+		</div>
+
+
+
+
+	</div>
+</div>
+
+
     </div>
     <!--_____________________SECCIONES ESTATICAS-->
     <section class="d-flex align-content-center flex-wrap container-fluid w-100 text-white bg-black p-3 m-auto align-items-center">

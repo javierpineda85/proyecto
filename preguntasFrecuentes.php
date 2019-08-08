@@ -21,17 +21,20 @@
 
 <body>
     <div class="menu">
-        <?php include_once ("header.php") ?>
+        <?php include_once("header.php") ?>
+    </div>
+    <div class="banner-standard bg-faq mb-0">
+        <h2 class="banner-texto-standard"><span>PREGUNTAS FRECUENTES</span></h2>
     </div>
 
+
+
+
+
         <div class="container" id="preFrecuentes">
-            <div class="titulo">
-            <h3 id="blanco">PREGUNTAS</h3>
-            <h3 id="naranja">FRECUENTES</h3>
-            </div>
-            
-        <section class="preguntasFrecuentes">
-            <h2>¿Pregunta Nº 1?</h2> <br>
+
+          <section class="preguntasFrecuentes">
+            <h2>¿Pregunta Nº 1?</h2>
             <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
         </section>
         <br>
