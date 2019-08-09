@@ -76,7 +76,7 @@ if ($existeMail == false) {
 
 }
 
-qui ?>
+?>
 
 <!DOCTYPE html>
 <html lang="es" dir="ltr">
@@ -105,8 +105,8 @@ qui ?>
         <?php include_once ("header.php") ?>
     </div>
 
-    <section class="registro">
-        <div class="container" id="registro">
+    <section class="registro m-0 py-5">
+        <div class="container bg-white p-4" id="registro">
 
             <form class="registro" action="registro.php" method="post" enctype="multipart/form-data">
                 <h1 class="forms"> Registrate</h1>
@@ -142,9 +142,9 @@ qui ?>
                     <i class="fas fa-birthday-cake"></i>
                     <input type="date" name="date" value="<?= $date; ?>" autofocus required>
                 </div>
-                <div class="formLog" id="paisDeNac">
+                <div class="formLog" id="paisDeNac" style="width:100%">
 
-                    <i class="fab fa-font-awesome-flag"></i> Pais de Nacimiento:
+                    <i class="fab fa-font-awesome-flag"></i> Pais Nacimiento:
                     <!--                    <input type="text" name="name" placeholder=" Pais de nacimiento " autofocus required>-->
                     <select class="formLog" name="pais" id="pais">
 
@@ -187,7 +187,7 @@ qui ?>
                     <input class="file" type="file" name="avatar" value="<?= $avatar; ?>">
                 </div>
 
-                <button type="submit" name="button">Registrarme</button>
+                <button class="form" type="submit" name="button">Registrarme</button>
                 <div class="formLog" id="recordar">
 
                     <p class="formLog">Al ingresar aceptas nuestras políticas de uso.</p><br>
