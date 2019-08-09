@@ -21,11 +21,14 @@
     <div class="menu">
         <?php include_once ("header.php") ?>
     </div>
-    <div class="textotitulo">
+    <div class="max-width">
       <div class="banner-standard bg-ss">
           <h2 class="banner-texto-standard"><span>NUESTROS SERVICIOS</span></h2>
       </div>
-        <h2 class="serv-texto2 max-width">Abarcamos toda la gama de servicios, desde la planificación del proyecto a su construcción final. Contando también con el diseño de interiores y paisajes</h2>
+      <div class="w-960 text-center montserrat p-5">
+        <h2 class="serv-texto2 ">Abarcamos toda la gama de servicios, desde la planificación del proyecto a su construcción final. Contando también con el diseño de interiores y paisajes</h2>
+      </div>
+
     </div>
     <div class="containerserv bg-light p-5 max-width">
         <div class="servicios m-3">
