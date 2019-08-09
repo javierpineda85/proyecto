@@ -50,10 +50,10 @@ $usuarioLogueado = traerUsuarioLogueado();
 
     <div class="inicio">
 
-      <div class="container-fluid jumbotron">
-	<div class="row">
+      <div class="container-fluid jumbotron pb-0 mb-0">
+	<div class="row montserrat text-center font-small">
 		<div class="col-md-6 capacitacion">
-		<h2>CAPACITACIONES</h2>
+		<h2 class="bg-orange color-white">CAPACITACIONES</h2>
 			<p>
 				Porque nos interesa tu futuro, y queremos ayudarte a crecer. <br> Conocé los cursos que tenemos para ofrecerte
 			</p>
@@ -64,7 +64,7 @@ $usuarioLogueado = traerUsuarioLogueado();
 
 
 		<div class="col-md-6 muni">
-			<h2>MUNICIPALIDADES</h2>
+			<h2 class="bg-black color-white">MUNICIPALIDADES</h2>
 			<p>
 			Accedé a la guía completa de trámites por Municipalidades. <br> Además encontrarás un organigrama para ayudarte a completasr los trámites
 			</p>
@@ -73,7 +73,7 @@ $usuarioLogueado = traerUsuarioLogueado();
 			</p>
 		</div>
 	<div class="col-md-6 proyectos">
-    <h2>PROYECTOS</h2>
+    <h2 class="bg-orange color-white">PROYECTOS</h2>
 			<p>
 				Estamos en constante movimiento. Conocé mas sobre nuestros proyectos. <br> También podés sumarte a nuestros proyectos.
 			</p>
@@ -84,7 +84,7 @@ $usuarioLogueado = traerUsuarioLogueado();
 
 
 		<div class="col-md-6 nosotros">
-			<h2>NOSOTROS</h2>
+			<h2 class="bg-black color-white">NOSOTROS</h2>
 			<p>
 			  Somos una organización sin fines de lucro. Conocémos un poco mas.
 			</p>

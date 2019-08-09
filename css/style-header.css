@@ -15,6 +15,7 @@ body {
   letter-spacing: 1px;
 }
 .max-width{max-width: 1440px;}
+.w-960{ max-width: 960px;}
 
 .bg-image{
 
@@ -134,9 +135,13 @@ a.nav-link, .dropdown-menu a {
   transform: translateY(-50%);
 }
 /*_____________________MICROCLASES*/
-.bg-black{ background: #000 !important;}
+.color-white{ color: white !important;}
 .color-orange{ color: #E27F41 !important;}
+.bg-black{ background: #000 !important;}
 .bg-orange{ background: #E27F41;}
+
+.font-small{ font-size: small; font-weight: 300;}
+.inicio a.btn {background: #E27F41; color: white;}
 
 .banner-standard {
   background-attachment: fixed;
