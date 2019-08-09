@@ -58,7 +58,7 @@ $usuarioLogueado = traerUsuarioLogueado();
 				Porque nos interesa tu futuro, y queremos ayudarte a crecer. <br> Conocé los cursos que tenemos para ofrecerte
 			</p>
 			<p>
-				<a class="btn" href="#">Ver mas »</a>
+				<a class="btn" href="capacitacion.php">Ver mas »</a>
 			</p>
 		</div>
 
@@ -66,10 +66,10 @@ $usuarioLogueado = traerUsuarioLogueado();
 		<div class="col-md-6 muni">
 			<h2 class="bg-black color-white">MUNICIPALIDADES</h2>
 			<p>
-			Accedé a la guía completa de trámites por Municipalidades. <br> Además encontrarás un organigrama para ayudarte a completasr los trámites
+			Accedé a la guía completa de trámites por Municipalidades. <br> Además encontrarás un organigrama para ayudarte a completar los trámites
 			</p>
 			<p>
-				<a class="btn" href="#">Ver mas »</a>
+				<a class="btn" href="municipalidades.php">Ver mas »</a>
 			</p>
 		</div>
 	<div class="col-md-6 proyectos">
@@ -89,7 +89,7 @@ $usuarioLogueado = traerUsuarioLogueado();
 			  Somos una organización sin fines de lucro. Conocémos un poco mas.
 			</p>
 			<p>
-				<a class="btn" href="#">Ver mas »</a>
+				<a class="btn" href="quienes%20somos.php">Ver mas »</a>
 			</p>
 		</div>
 

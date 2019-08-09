@@ -33,17 +33,18 @@
       <div class="carousel-item m-x-auto centered-img">
         <img src="img/slider/slider-2.jpg" class="d-block contain" alt="...">
         <div class="carousel-caption d-md-block montserrat centered">
-          <h5 class="content-orange">MISION</h5>
-          <p>Promover la participación de los miembros, para resolver las distintas problemáticas del rubro y brindar capacitaciones para el desarrollo profesional</p>
+          <h5 class="content-orange">CAPACITACIONES</h5>
+          <p>Porque sabemos que es importante estar siempre capacitado, es que ofrecemos este espacio para que puedas invertir en tu futuro. Mirá los cursos que A.S.A Mendoza tiene para ofrecerte.</p>
+            <a class="btn" href="capacitacion.php">Ver mas »</a>
         </div>
       </div>
 
       <div class="carousel-item m-x-auto centered-img">
         <img src="img/slider/slider-3.jpg" class="d-block contain" alt="...">
         <div class="carousel-caption d-md-block montserrat centered">
-          <h5 class="content-orange">Asociación Solidaria de Arquitecto</h5>
-          <p>Se está gestando como una Asociación Civil sin fines de lucro,
-              en donde los profesionales puedan compartir de forma genuina, la búsqueda de objetivos comunes en un espacio colaborativo y cooperativo</p>
+          <h5 class="content-orange">MUNICIPALIDADES</h5>
+          <p>Accedé a la guía completa de tramites por municipios. Además podés descargar toda la documentación necesaria desde aquí.</p>
+            <a class="btn" href="municipalidades.php">Ver mas »</a>
         </div>
       </div>
 
