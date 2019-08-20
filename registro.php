@@ -3,26 +3,25 @@ $name ="";
 $lastName ="";
 $userName ="";
 $date ="";
-$pais ="";
+$prov ="";
 $email ="";
 $phone ="";
 
 
 
-$paises=[
-  "AR"=>"Argentina",
-  "BO"=>"Bolivia",
-  "BR"=>"Brasil",
-  "CL"=>"Chile",
-  "CO"=>"Colombia",
-  "EC"=>"Ecuador",
-  "GY"=>"Guayana",
-  "PY"=>"Paraguay",
-  "PE"=>"Perú",
-  "SR"=>"Surinam",
-  "TT"=>"Trinidad y Tobago",
-  "UY"=>"Uruguay",
-  "VE"=>"Venezuela"
+$provincias=[
+  "BA"=>"Buenos Aires",
+  "CA"=>"Catamarca",
+  "CH"=>"Chaco",
+  "CT"=>"Chubut",
+  "CB"=>"Cordoba",
+  "ER"=>"Entre Rios",
+  "JY"=>"Formosa",
+  "LP"=>"La Pampa",
+  "LR"=>"La Rioja",
+  "MZ"=>"Mendoza",
+  "MI"=>"Misiones",
+  "RN"=>"Rio Negro"
 ];
 
 require_once("funciones.php");
@@ -42,7 +41,7 @@ if($_POST){
         $lastName =$_POST["lastName"];
         $userName =$_POST["userName"];
         $date =$_POST["date"];
-        $pais =$_POST["pais"];
+        $prov =$_POST["prov"];
         $email =$_POST["email"];
         $phone =$_POST["phone"];
         // $avatar =$_POST["avatar"];
@@ -142,17 +141,17 @@ if ($existeMail == false) {
                     <i class="fas fa-birthday-cake"></i>
                     <input type="date" name="date" value="<?= $date; ?>" autofocus required>
                 </div>
-                <div class="formLog" id="paisDeNac" style="width:100%">
+                <div class="formLog" id="provDeNac" style="width:100%">
 
-                    <i class="fab fa-font-awesome-flag"></i> Pais Nacimiento:
-                    <!--                    <input type="text" name="name" placeholder=" Pais de nacimiento " autofocus required>-->
-                    <select class="formLog" name="pais" id="pais">
+                    <i class="fab fa-font-awesome-flag"></i> Provincia de Nacimiento:
+                    <!--                    <input type="text" name="name" placeholder=" prov de nacimiento " autofocus required>-->
+                    <select class="formLog" name="prov" id="prov">
 
-                        <?php foreach ($paises as $codigo => $pais): ?>
+                        <?php foreach ($provincias as $codigo => $provincia): ?>
 
-                        <!-- // aqui necesita tener persistencia el pais elegido -->
+                        <!-- // aqui necesita tener persistencia el prov elegido -->
 
-                        <option value="<?php echo $codigo; ?>"> <?php echo $pais; ?> </option>
+                        <option value="<?php echo $codigo; ?>"> <?php echo $provincia; ?> </option>
                         <?php endforeach; ?>
                     </select>
                 </div>

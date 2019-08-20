@@ -49,9 +49,9 @@
                     <i class="fas fa-birthday-cake"></i>
                     <input type="date" name="name" placeholder=" Fecha de Nacimiento DD/MM/AAAA " autofocus required>
                 </div>
-                <div class="formLog" id="paisDeNac">
+                <div class="formLog" id="provDeNac">
                     <i class="fab fa-font-awesome-flag"></i>
-                    <input type="text" name="name" placeholder=" Pais de nacimiento " autofocus required>
+                    <input type="text" name="name" placeholder=" Provincia de nacimiento " autofocus required>
                 </div>
 
                 <div class="formLog" id="email">
